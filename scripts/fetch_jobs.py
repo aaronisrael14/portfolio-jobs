@@ -157,7 +157,14 @@ JUNK_TITLES = re.compile(r"^(read more|apply( now)?|view details|learn more|see 
 
 
 def _text(el):
+    """Visible text with spaces between blocks (good for scanning a whole card)."""
     return re.sub(r"\s+", " ", el.get_text(" ", strip=True)).strip() if el else ""
+
+
+def _title_text(el):
+    """Text exactly as written. Some sites (Framer) wrap every letter in its own <span>
+    for animation; joining with "" keeps "Data Science" instead of "D a t a S c i e n c e"."""
+    return re.sub(r"\s+", " ", el.get_text("")).strip() if el else ""
 
 
 def _is_title_el(el):
@@ -168,15 +175,15 @@ def _is_title_el(el):
 def _guess_title(card, anchor):
     inside = [e for e in anchor.find_all(True) if _is_title_el(e)]
     if inside:
-        return _text(inside[0])
+        return _title_text(inside[0])
     last = None
     for el in card.find_all(True):
         if el is anchor:
             break
-        if _is_title_el(el) and _text(el):
+        if _is_title_el(el) and _title_text(el):
             last = el
     if last is not None:
-        return _text(last)
+        return _title_text(last)
     # No heading anywhere: use the first line of text inside the link (cards that are one big <a>).
     for s in anchor.stripped_strings:
         s = re.sub(r"\s+", " ", s)
@@ -189,14 +196,14 @@ def src_html(c):
     """Scrape a company's own careers page (Webflow, Framer, WordPress...)."""
     base = c["url"]
     soup = BeautifulSoup(get_text(base), "html.parser")
-    sel = lambda card, key: _text(card.select_one(c[key])) if c.get(key) else ""
+    sel = lambda card, key: _title_text(card.select_one(c[key])) if c.get(key) else ""
     out = []
 
     if c.get("item"):  # one card per job, selected directly
         for card in soup.select(c["item"]):
             a = card.select_one(c.get("link_selector", "a[href]"))
             out.append({
-                "title": sel(card, "title") or _text(card.find(HEADINGS)),
+                "title": sel(card, "title") or _title_text(card.find(HEADINGS)),
                 "location": sel(card, "location"),
                 "department": sel(card, "department"),
                 "url": urljoin(base, a["href"]) if a and a.has_attr("href") else c.get("apply_url", base),
@@ -302,7 +309,8 @@ def region_of(loc):
 
 def guess_location(card):
     """Pull a location out of free card text for HTML sources without a location selector."""
-    m = re.search(r"(Remote[^|,]{0,20}|Tel[- ]?Aviv[^|]{0,15}|New York|Austin,? ?TX|London|Israel|US \(Remote\)|United States)", card or "", re.I)
+    m = re.search(r"(US \(Remote\)|Remote(?: ?[-–] ?(?:US|USA|EST|PST|EMEA|Israel|Europe)\b)?|Tel[- ]?Aviv(?:,? Israel)?|"
+                  r"New York(?: metropolitan area)?|Austin,? ?TX|London|Israel|United States)", card or "", re.I)
     return m.group(0).strip(" ·|-") if m else ""
 
 
