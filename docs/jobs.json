@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T22:30:39+00:00",
+ "updated_at": "2026-11-02T22:37:11+00:00",
  "baseline": "2026-11-02",
  "job_count": 91,
  "companies": [
@@ -862,12 +862,12 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "c425c3667fb3",
+   "id": "d4e1ffb263ae",
    "title": "Senior Account Manager",
    "company": "BigaBid",
    "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-account-manager/DD.277",
-   "location": "Bigabid",
-   "region": "",
+   "location": "Israel",
+   "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
    "department": "Growth",
@@ -876,12 +876,12 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "365fa668f824",
+   "id": "90ae0bd840c7",
    "title": "Group Lead of Core and Integrations",
    "company": "BigaBid",
    "url": "https://www.comeet.com/jobs/bigabid/A4.003/group-lead-of-core-and-integrations/DF.F3A",
-   "location": "Bigabid",
-   "region": "",
+   "location": "Israel",
+   "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
    "department": "Engineering",
@@ -1296,12 +1296,12 @@
    "first_seen": "2026-10-28"
   },
   {
-   "id": "d8a6786aaa8d",
+   "id": "f0421ec230e3",
    "title": "Senior User Acquisition Manager",
    "company": "BigaBid",
    "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-user-acquisition-manager/1C.274",
-   "location": "Bigabid",
-   "region": "",
+   "location": "Israel",
+   "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
    "department": "Performance",
