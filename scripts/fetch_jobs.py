@@ -234,7 +234,7 @@ def src_html(c):
                 "location": sel(card, "location"),
                 "department": sel(card, "department"),
                 "url": href,
-                "card": _text(card)[:300],
+                "card": _text(card)[:600],
             })
     return out
 
@@ -309,9 +309,17 @@ def region_of(loc):
 
 def guess_location(card):
     """Pull a location out of free card text for HTML sources without a location selector."""
-    m = re.search(r"(US \(Remote\)|Remote(?: ?[-–] ?(?:US|USA|EST|PST|EMEA|Israel|Europe)\b)?|Tel[- ]?Aviv(?:,? Israel)?|"
-                  r"New York(?: metropolitan area)?|Austin,? ?TX|London|Israel|United States)", card or "", re.I)
+    m = re.search(r"(US \(Remote\)|Remote(?: ?[-–] ?(?:US|USA|EST|PST|EMEA|Israel|Europe)\b)?|"
+                  r"(?:Tel[- ]?Aviv|Ra'?anana|Herzliya|Haifa|Jerusalem|Petah Tikva|Ramat Gan|Giv'?atayim)(?:,? Israel)?|"
+                  r"New York(?: metropolitan area(?: \([A-Z, ]+\))?)?|USA(?:, (?:West|East) Coast)?|"
+                  r"Austin,? ?TX|London|Israel|United States)", card or "", re.I)
     return m.group(0).strip(" ·|-") if m else ""
+
+
+def guess_workplace(card):
+    """Pick up a "Full-Time ... Remote/Hybrid/On-site" label from free card text."""
+    m = re.search(r"Full[- ]?Time(?:\s*Full[- ]?Time)?\s*(Remote|Hybrid|On-?site)\b", card or "", re.I)
+    return {"remote": "Remote", "hybrid": "Hybrid"}.get(m.group(1).lower(), "On-site") if m else ""
 
 
 def clean_location(loc):
@@ -329,7 +337,7 @@ def normalize(company, raw, today, previous):
         if not title or not r.get("url"):
             continue
         loc = clean_location(r.get("location") or guess_location(r.get("card", "")) or cfg.get("default_location", ""))
-        workplace = r.get("workplace") or ""
+        workplace = r.get("workplace") or guess_workplace(r.get("card", ""))
         remote = workplace == "Remote" or bool(re.search(r"\bremote\b", loc, re.I))
         jid = hashlib.sha1(f"{company['name']}|{r['url']}|{title}|{loc}".encode()).hexdigest()[:12]
         prev = previous.get(jid, {})
