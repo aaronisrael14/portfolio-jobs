@@ -3,375 +3,247 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio Jobs</title>
-<meta name="description" content="Open roles at the companies we've backed, updated every night.">
+<title>Secret Chord Ventures | Portfolio Jobs</title>
+<meta name="description" content="Open roles across the Secret Chord Ventures portfolio.">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAGFBMVEX6+vjW1tVAQEAoKCgnKCknKCgmKCgeHx+of64aAAADjUlEQVR42u2XQW8bRRTHfzMJrYJQPC41SJWTrBdyalWKiDgQEqXCHJCaNq4g4kAPiE/AF4EPUCTENZHaSviEnCZKFSRQm6KQUyLWW7sSEWmz41zqgzvDYR3Xu/EGpB7gMHvamXnzm3n/ffPerPiMl3skDuAADuAADuAADuAADuAADvDfAIJ/GB8eZO8ftUwo33v+m/TiEb9n42cCgjLAk8Pu/GbZrgyXO2s+iDJ3vbi33L8tkfjhMG8vR5AvmNi08eEtDaJwbdUzapVKI+7d5+xEb8rQ+X5A89d6u92Oni20AIKZ7/9st9vPDvY+0eL05l5HK8CMb+593hosopmuAxDFranb8YsN7sC2ynVn5bTIEvHxA0ReRTaWoBnUEXlFFNk/rjZAnx6NeeT1YIA5/wuTFViWAOadZcRkBViKhjRjH3zbuXgINDcZ3vIG70Ah52vwca4O8JrmjfkasLh0asuzgkgdAsKislywnF3z4b70Yn/kF+s+UFt82oqHAdAiN5EZiUICvgeYC5rCmgfg11ogNxTVEMy0ZiY7lDsXe685La52R+PAU/ZolRPOQtRzT0aIUa/fvzw6lqCwngUQmOpRlDZWeb3RPzg2x/4sNG8nNEwA5IZit/wizmWY1OdfHOc85uYRQSdXQraUBSa0uOJlAYoVxcHNj8LBJ38bWw1NUYvsHciNEhx8N5tBUGiwKJ3tQvH9EkTV8YHzxy/TuTS0xitb2QB5f7GE3Xlr4BZMnmj0UZSWJmnk1xZL2B/iDR9/LGiROzGp+rXriv3Z7ndImm4o7l2AGe/ErOzf+xLbACuwXlpF28qlPsKAtD72s7JbIWMLPDkuprap+BwAkF3vBZakmMUKnTvp+EzmxDDhsa2aZHERRDYtbgLwOBFCit258EWxAFrKpgI5CTDT1dkgCC7F6hevY6pzQRCE5aVHse02Nq1hKqXt/FiBn7S40gC54YU7tz6FzlL9VBgvq/QxyforU+OvusgrG2n5dQMwE9900zqFudh49yFvjnsnFVd7cABMrnvx0arHbczoIcDzuYfHAlQmPlMegDNdnYqLJQUgzny11cspuRSgvzaK3xf2xMjIuRtr3Uh4MF9nZOTVczdWSnGHbstrIlsDTPOyuTular3yH0wpwK70OvyjGp9V3kP57tPQT99P/L62z0kAIPBf8o7ku3uiAziAAziAAziAAziAAzjA/wPwNzQ+RBaUvLnDAAAAAElFTkSuQmCC">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Palette taken from secretchord.vc */
 :root {
-  --bg: #F5F7FA;
-  --surface: #FFFFFF;
-  --ink: #14213D;
-  --muted: #5B6475;
-  --line: #DCE1E9;
-  --accent: #2346E8;
-  --accent-soft: #E6EBFD;
-  --new: #1C7C54;
-  --new-soft: #E2F3EA;
-  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  color-scheme: light;
+  --bg: #2B2B2B;
+  --card: #313131;
+  --card-hover: #363636;
+  --ink: #ECECEC;
+  --body: #959595;
+  --label: #828282;
+  --faint: #787878;
+  --line: #484848;
+  --font: "Figtree", "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0E1526; --surface: #141C30; --ink: #E8ECF4; --muted: #98A2B6; --line: #26304A;
-    --accent: #7F98FF; --accent-soft: #1C2750; --new: #5FD39B; --new-soft: #12301F; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0E1526; --surface: #141C30; --ink: #E8ECF4; --muted: #98A2B6; --line: #26304A;
-  --accent: #7F98FF; --accent-soft: #1C2750; --new: #5FD39B; --new-soft: #12301F; color-scheme: dark;
-}
-
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
 a { color: inherit; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+:focus-visible { outline: 1px solid var(--ink); outline-offset: 3px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 32px clamp(16px, 3vw, 34px) 48px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Header */
-.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; }
-.brand { font: 600 17px/1 var(--display); text-decoration: none; letter-spacing: -0.01em; }
-.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; background: var(--ink); color: var(--bg);
-  font: 600 14px/1 var(--body); text-decoration: none; border: 0; cursor: pointer; white-space: nowrap; }
-.btn:hover { background: var(--accent); color: #fff; }
+.head { display: flex; align-items: center; gap: 18px; }
+.logo { width: 64px; height: 64px; border-radius: 16px; border: 1px solid var(--line); flex: none; display: block; }
+.kicker { font: 400 12.5px/1 var(--font); letter-spacing: 0.26em; text-transform: uppercase; color: var(--label); margin: 0 0 10px; }
+h1 { font: 700 clamp(32px, 4.4vw, 48px)/1.05 var(--font); letter-spacing: -0.02em; margin: 0; color: var(--ink); }
+.intro { font: 300 clamp(16px, 1.5vw, 18px)/1.6 var(--font); color: var(--body); margin: 26px 0 0; max-width: 88ch; }
 
-/* Hero: the sentence is the filter */
-.hero { padding: 56px 0 28px; }
-.count { font: 400 clamp(17px, 2vw, 19px)/1.4 var(--body); color: var(--muted); margin: 0 0 18px; }
-.count b { color: var(--ink); font-weight: 600; }
-.ask { font: 600 clamp(34px, 6.2vw, 68px)/1.08 var(--display); letter-spacing: -0.035em; margin: 0; max-width: 18ch; }
-.ask .pick { position: relative; display: inline-block; white-space: nowrap; }
-.ask select {
-  appearance: none; -webkit-appearance: none; font: inherit; letter-spacing: inherit; color: var(--accent); background: transparent;
-  border: 0; border-bottom: 0.07em solid currentColor; padding: 0 0.62em 0 0; margin: 0; cursor: pointer; border-radius: 0; max-width: 100%;
+/* Filters */
+.filters { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1.35fr) repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 30px; }
+.field { position: relative; }
+.filters input, .filters select {
+  width: 100%; height: 48px; font: 400 15.5px var(--font); color: var(--ink); background: var(--card);
+  border: 1px solid var(--line); border-radius: 12px; padding: 0 16px; appearance: none; -webkit-appearance: none;
 }
-.ask .pick::after { content: ""; position: absolute; right: 0.08em; top: 0.48em; width: 0.26em; height: 0.26em; border: solid var(--accent);
-  border-width: 0 0.07em 0.07em 0; transform: rotate(45deg); pointer-events: none; }
-.ask select:focus-visible { outline-offset: 6px; }
-.ask select option { font: 400 16px var(--body); color: #14213D; }
+.filters input::placeholder { color: var(--faint); }
+.filters input:focus, .filters select:focus { outline: none; border-color: var(--body); }
+.filters select { padding-right: 36px; cursor: pointer; text-overflow: ellipsis; }
+.filters select option { background: #2B2B2B; color: #ECECEC; }
+.field.sel::after { content: ""; position: absolute; right: 17px; top: 19px; width: 6px; height: 6px; border: solid var(--body);
+  border-width: 0 1px 1px 0; transform: rotate(45deg); pointer-events: none; }
+.meta-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 26px 0 12px; }
+.count { color: var(--body); font-size: 15px; margin: 0; }
+.clear { background: none; border: 0; padding: 0; font: inherit; font-size: 14px; color: var(--ink); cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 4px; }
 
-.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 34px; }
-.search { position: relative; flex: 1 1 280px; max-width: 420px; }
-.search input { width: 100%; font: 400 16px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
-  border-radius: 10px; padding: 11px 14px 11px 40px; }
-.search input::placeholder { color: var(--muted); }
-.search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
-.toggle { display: inline-flex; align-items: center; gap: 9px; font-size: 15px; cursor: pointer; user-select: none; }
-.toggle input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
-.status { font-size: 15px; color: var(--muted); margin-left: auto; }
-.linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+/* Job cards */
+.jobs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.job a { display: flex; align-items: center; gap: 20px; padding: 20px 24px; background: var(--card); border: 1px solid var(--line);
+  border-radius: 14px; text-decoration: none; }
+.job a:hover { background: var(--card-hover); border-color: #5A5A5A; }
+.job .text { flex: 1; min-width: 0; }
+.title { font: 500 18px/1.35 var(--font); margin: 0; color: var(--ink); }
+.sub { font-size: 15px; color: var(--body); margin-top: 4px; }
+.sub .dot { margin: 0 6px; color: var(--faint); }
+.tag { display: inline-block; font: 500 10.5px/1 var(--font); letter-spacing: 0.16em; text-transform: uppercase; padding: 4px 7px;
+  border: 1px solid var(--line); border-radius: 6px; color: var(--body); margin-left: 10px; vertical-align: 3px; }
+.tag.new { border-color: var(--ink); color: var(--ink); }
+.apply { flex: none; font: 500 15.5px/1 var(--font); color: var(--ink); display: inline-flex; align-items: center; gap: 6px; }
+.apply svg { transition: transform .15s ease; }
+.job a:hover .apply svg { transform: translateX(2px); }
 
-/* Job list */
-.jobs { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid var(--line); }
-.job { border-bottom: 1px solid var(--line); }
-.job a.row { display: grid; grid-template-columns: 40px minmax(0, 1fr) 200px 150px 64px; align-items: center; gap: 16px;
-  padding: 16px 8px; text-decoration: none; }
-.job a.row:hover { background: var(--surface); }
-.job a.row:hover .title { color: var(--accent); }
-.mark { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; font: 700 16px/1 var(--display);
-  color: #14213D; overflow: hidden; flex: none; }
-.mark img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
-.title { font: 600 17px/1.3 var(--body); margin: 0; }
-.sub { font-size: 14px; color: var(--muted); margin-top: 2px; }
-.where { font-size: 15px; }
-.tag { display: inline-block; font-size: 12.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; margin-left: 6px;
-  background: var(--accent-soft); color: var(--accent); vertical-align: 1px; }
-.tag.new { background: var(--new-soft); color: var(--new); margin: 0; }
-.fn { font-size: 15px; color: var(--muted); }
-.when { font-size: 14px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.empty { padding: 40px 24px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; color: var(--body); }
+.empty strong { color: var(--ink); font-weight: 500; display: block; margin-bottom: 4px; }
+.more { display: block; margin: 22px auto 0; background: none; border: 1px solid var(--line); color: var(--ink); cursor: pointer;
+  font: 500 14px/1 var(--font); padding: 14px 24px; border-radius: 12px; }
+.more:hover { border-color: var(--body); }
 
-.empty { padding: 48px 8px; border-bottom: 1px solid var(--line); }
-.empty p { margin: 0 0 8px; max-width: 56ch; }
-.more { display: block; margin: 20px auto 0; }
-
-/* Talent network */
-.network { margin: 72px 0 0; padding: 36px; background: var(--ink); color: var(--bg); border-radius: 20px;
-  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: center; }
-.network h2 { font: 600 clamp(24px, 3.4vw, 32px)/1.15 var(--display); letter-spacing: -0.02em; margin: 0 0 8px; }
-.network p { margin: 0; opacity: 0.8; max-width: 52ch; }
-.network .btn { background: var(--bg); color: var(--ink); padding: 14px 22px; font-size: 15px; }
-.network .btn:hover { background: var(--accent); color: #fff; }
-
-/* Roster */
-.roster { margin-top: 80px; }
-.roster h2 { font: 600 28px/1.2 var(--display); letter-spacing: -0.02em; margin: 0 0 6px; }
-.roster > p { color: var(--muted); margin: 0 0 24px; }
-.cos { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 32px; }
-.co { display: flex; gap: 14px; padding: 16px 0; border-top: 1px solid var(--line); min-width: 0; }
-.co .mark { width: 36px; height: 36px; font-size: 14px; border-radius: 9px; }
-.co h3 { font: 600 16px/1.3 var(--body); margin: 0; }
-.co h3 a { text-decoration: none; }
-.co h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
-.co .meta { font-size: 14px; color: var(--muted); }
-.co .hire { font-size: 14px; margin-top: 4px; }
-.co .hire button { font-weight: 600; }
-.co .quiet { color: var(--muted); }
-
-footer { margin: 72px 0 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted);
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 13px; color: var(--label);
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
 
-@media (max-width: 860px) {
-  .job a.row { grid-template-columns: 40px minmax(0, 1fr) auto; grid-template-areas: "m t w" "m l w"; column-gap: 16px; row-gap: 2px; }
-  .job .mark { grid-area: m; align-self: start; }
-  .job .main { grid-area: t; }
-  .job .where { grid-area: l; font-size: 14px; color: var(--muted); }
-  .job .fn { display: none; }
-  .job .when { grid-area: w; align-self: start; }
-  .cos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 900px) {
+  .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .filters .search { grid-column: 1 / -1; }
 }
 @media (max-width: 560px) {
-  .wrap { padding: 0 16px; }
-  .hero { padding-top: 32px; }
-  .status { margin-left: 0; width: 100%; }
-  .network { grid-template-columns: 1fr; padding: 28px 22px; }
-  .cos { grid-template-columns: 1fr; }
-  .job a.row { padding: 14px 4px; column-gap: 12px; row-gap: 2px; }
-  .network .btn { justify-content: center; }
+  .wrap { padding-top: 22px; }
+  .logo { width: 52px; height: 52px; border-radius: 13px; }
+  .kicker { font-size: 11px; margin-bottom: 7px; }
+  .filters .field:nth-child(2), .filters .field:nth-child(5) { grid-column: 1 / -1; }
+  .job a { padding: 16px 16px; gap: 12px; align-items: flex-start; }
+  .apply { font-size: 14.5px; margin-top: 2px; }
+  .title { font-size: 16.5px; }
+  .tag { margin-left: 0; margin-top: 6px; vertical-align: 0; }
 }
-@media (prefers-reduced-motion: no-preference) {
-  .jobs.ready .job { animation: rise .35s ease both; animation-delay: calc(var(--i) * 18ms); }
-  @keyframes rise { from { opacity: 0; transform: translateY(6px); } }
-}
+@media (prefers-reduced-motion: reduce) { .apply svg { transition: none; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header class="top">
-    <a class="brand" id="brand" href="/">Portfolio Jobs</a>
-    <a class="btn" id="talentTop" href="#" target="_blank" rel="noopener">Join the talent network</a>
+  <header class="head">
+    <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAGFBMVEX6+vjW1tVAQEAoKCgnKCknKCgmKCgeHx+of64aAAADjUlEQVR42u2XQW8bRRTHfzMJrYJQPC41SJWTrBdyalWKiDgQEqXCHJCaNq4g4kAPiE/AF4EPUCTENZHaSviEnCZKFSRQm6KQUyLWW7sSEWmz41zqgzvDYR3Xu/EGpB7gMHvamXnzm3n/ffPerPiMl3skDuAADuAADuAADuAADuAADvDfAIJ/GB8eZO8ftUwo33v+m/TiEb9n42cCgjLAk8Pu/GbZrgyXO2s+iDJ3vbi33L8tkfjhMG8vR5AvmNi08eEtDaJwbdUzapVKI+7d5+xEb8rQ+X5A89d6u92Oni20AIKZ7/9st9vPDvY+0eL05l5HK8CMb+593hosopmuAxDFranb8YsN7sC2ynVn5bTIEvHxA0ReRTaWoBnUEXlFFNk/rjZAnx6NeeT1YIA5/wuTFViWAOadZcRkBViKhjRjH3zbuXgINDcZ3vIG70Ah52vwca4O8JrmjfkasLh0asuzgkgdAsKislywnF3z4b70Yn/kF+s+UFt82oqHAdAiN5EZiUICvgeYC5rCmgfg11ogNxTVEMy0ZiY7lDsXe685La52R+PAU/ZolRPOQtRzT0aIUa/fvzw6lqCwngUQmOpRlDZWeb3RPzg2x/4sNG8nNEwA5IZit/wizmWY1OdfHOc85uYRQSdXQraUBSa0uOJlAYoVxcHNj8LBJ38bWw1NUYvsHciNEhx8N5tBUGiwKJ3tQvH9EkTV8YHzxy/TuTS0xitb2QB5f7GE3Xlr4BZMnmj0UZSWJmnk1xZL2B/iDR9/LGiROzGp+rXriv3Z7ndImm4o7l2AGe/ErOzf+xLbACuwXlpF28qlPsKAtD72s7JbIWMLPDkuprap+BwAkF3vBZakmMUKnTvp+EzmxDDhsa2aZHERRDYtbgLwOBFCit258EWxAFrKpgI5CTDT1dkgCC7F6hevY6pzQRCE5aVHse02Nq1hKqXt/FiBn7S40gC54YU7tz6FzlL9VBgvq/QxyforU+OvusgrG2n5dQMwE9900zqFudh49yFvjnsnFVd7cABMrnvx0arHbczoIcDzuYfHAlQmPlMegDNdnYqLJQUgzny11cspuRSgvzaK3xf2xMjIuRtr3Uh4MF9nZOTVczdWSnGHbstrIlsDTPOyuTular3yH0wpwK70OvyjGp9V3kP57tPQT99P/L62z0kAIPBf8o7ku3uiAziAAziAAziAAziAAzjA/wPwNzQ+RBaUvLnDAAAAAElFTkSuQmCC" alt="Secret Chord Ventures" width="64" height="64">
+    <div>
+      <p class="kicker" id="kicker">Secret Chord Ventures</p>
+      <h1>Portfolio Jobs</h1>
+    </div>
   </header>
+  <p class="intro" id="intro">Open roles across the Secret Chord Ventures portfolio. Applications go directly to each company.</p>
 
-  <main>
-    <section class="hero" aria-labelledby="ask">
-      <p class="count" id="count">Loading open roles…</p>
-      <h1 class="ask" id="ask">
-        Show me
-        <span class="pick"><label class="sr" for="fTeam">Team</label><select id="fTeam"><option value="">any</option></select></span>
-        roles in
-        <span class="pick"><label class="sr" for="fPlace">Location</label><select id="fPlace"><option value="">anywhere</option></select></span>
-        at
-        <span class="pick"><label class="sr" for="fCo">Company</label><select id="fCo"><option value="">any company</option></select></span>
-      </h1>
-      <div class="tools">
-        <div class="search">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-          <label class="sr" for="fQ">Search roles</label>
-          <input id="fQ" type="search" placeholder="Search titles, e.g. backend, product" autocomplete="off">
-        </div>
-        <label class="toggle"><input type="checkbox" id="fRemote"> Remote only</label>
-        <p class="status" id="status" aria-live="polite"></p>
-      </div>
-    </section>
+  <div class="filters" role="search">
+    <div class="field search">
+      <label class="sr" for="fQ">Search roles</label>
+      <input id="fQ" type="search" placeholder="Search title, location, team…" autocomplete="off">
+    </div>
+    <div class="field sel"><label class="sr" for="fCo">Company</label><select id="fCo"><option value="">All companies</option></select></div>
+    <div class="field sel"><label class="sr" for="fSector">Sector</label><select id="fSector"><option value="">All sectors</option></select></div>
+    <div class="field sel"><label class="sr" for="fTeam">Team</label><select id="fTeam"><option value="">All teams</option></select></div>
+    <div class="field sel"><label class="sr" for="fPlace">Location</label><select id="fPlace"><option value="">All locations</option></select></div>
+  </div>
 
-    <ul class="jobs" id="jobs" aria-label="Open roles"></ul>
-    <button class="btn more" id="more" hidden>Show all roles</button>
+  <div class="meta-row">
+    <p class="count" id="count" aria-live="polite">Loading open positions…</p>
+    <button class="clear" id="clear" hidden>Clear filters</button>
+  </div>
 
-    <section class="network" id="network" aria-labelledby="netTitle">
-      <div>
-        <h2 id="netTitle">Not seeing the right role?</h2>
-        <p>Tell us what you are looking for. When a portfolio company is hiring for it, we'll make the introduction.</p>
-      </div>
-      <a class="btn" id="talentCta" href="#" target="_blank" rel="noopener">Join the talent network</a>
-    </section>
-
-    <section class="roster" aria-labelledby="rosterTitle">
-      <h2 id="rosterTitle">The portfolio</h2>
-      <p id="rosterNote"></p>
-      <ul class="cos" id="cos"></ul>
-    </section>
-  </main>
+  <ul class="jobs" id="jobs" aria-label="Open positions"></ul>
+  <button class="more" id="more" hidden>Show all positions</button>
 
   <footer>
     <span id="updated"></span>
-    <span>Roles are pulled nightly from each company's careers page. Apply directly with the company.</span>
+    <span>Roles are pulled nightly from each company's careers page.</span>
   </footer>
 </div>
 
 <script>
 /* ---- Settings: edit these ---------------------------------------------- */
 const CONFIG = {
-  fundName: "SCV Portfolio Jobs",             // shown top-left and in the tab title
-  homeUrl: "/",                               // where the name links to (your main site)
-  talentFormUrl: "",                          // optional: a sign-up form link; leave empty to hide the talent network
-  pageSize: 40,                               // roles shown before "Show all roles"
+  fundName: "Secret Chord Ventures",   // shown above the title and in the intro line
+  pageSize: 50,                        // positions shown before "Show all positions"
 };
 /* ------------------------------------------------------------------------ */
 
 const $ = (s) => document.querySelector(s);
-const els = { team: $("#fTeam"), place: $("#fPlace"), co: $("#fCo"), q: $("#fQ"), remote: $("#fRemote") };
-let DATA = null, showAll = false;
+const els = { q: $("#fQ"), co: $("#fCo"), sector: $("#fSector"), team: $("#fTeam"), place: $("#fPlace") };
+const SELECTS = ["co", "sector", "team", "place"];
+const HASH_KEYS = { q: "q", co: "company", sector: "sector", team: "team", place: "location" };
+let DATA = null, CO = {}, showAll = false;
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const plural = (n, w) => `${n} ${n === 1 ? w : w.endsWith("y") ? w.slice(0, -1) + "ies" : w + "s"}`;
+const plural = (n, w) => `${n} ${n === 1 ? w : w + "s"}`;
+const ARROW = `<svg width="9" height="14" viewBox="0 0 9 14" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m1.5 1.5 5.5 5.5-5.5 5.5"/></svg>`;
 
-// Size each sentence dropdown to its current choice, so the headline reads like a sentence.
-const sizer = document.createElement("span");
-function fitSelects() {
-  for (const s of [els.team, els.place, els.co]) {
-    sizer.textContent = s.options[s.selectedIndex]?.text || "";
-    s.parentNode.appendChild(sizer);
-    s.style.width = `calc(${sizer.getBoundingClientRect().width}px + 0.66em)`;
-    sizer.remove();
-  }
-}
-
-function hue(name) { let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
-function mark(co) {
-  const name = co.name || co;
-  const logo = co.logo;
-  const initials = name.replace(/[^A-Za-z0-9 ]/g, "").split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase() || "?";
-  const style = `background:hsl(${hue(name)} 62% 86%)`;
-  return logo
-    ? `<span class="mark" aria-hidden="true"><img src="${esc(logo)}" alt="" loading="lazy"></span>`
-    : `<span class="mark" style="${style}" aria-hidden="true">${esc(initials.slice(0, 2))}</span>`;
-}
-
-const fmtDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric" });
 function isNew(j) {
-  if (!j.first_seen || j.first_seen === DATA.baseline) return false;
+  if (!j.first_seen || j.first_seen <= DATA.baseline) return false;
   return (Date.parse(DATA.updated_at) - Date.parse(j.first_seen)) / 864e5 <= 7;
+}
+
+function matches(j) {
+  if (els.co.value && j.company !== els.co.value) return false;
+  if (els.sector.value && (CO[j.company] || {}).sector !== els.sector.value) return false;
+  if (els.team.value && j.function !== els.team.value) return false;
+  const p = els.place.value;
+  if (p === "Remote" ? !j.remote : p && j.region !== p) return false;
+  const q = els.q.value.trim().toLowerCase();
+  if (q && !`${j.title} ${j.company} ${j.location} ${j.department} ${j.function}`.toLowerCase().includes(q)) return false;
+  return true;
 }
 
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  els.team.value = p.get("team") || ""; els.place.value = p.get("in") || "";
-  els.co.value = p.get("at") || ""; els.q.value = p.get("q") || ""; els.remote.checked = p.get("remote") === "1";
-  for (const s of [els.team, els.place, els.co]) if (s.selectedIndex < 0) s.value = "";
+  for (const k in HASH_KEYS) els[k].value = p.get(HASH_KEYS[k]) || "";
+  for (const k of SELECTS) if (els[k].selectedIndex < 0) els[k].value = "";
 }
 function writeHash() {
   const p = new URLSearchParams();
-  if (els.team.value) p.set("team", els.team.value);
-  if (els.place.value) p.set("in", els.place.value);
-  if (els.co.value) p.set("at", els.co.value);
-  if (els.q.value.trim()) p.set("q", els.q.value.trim());
-  if (els.remote.checked) p.set("remote", "1");
+  for (const k in HASH_KEYS) { const v = els[k].value.trim(); if (v) p.set(HASH_KEYS[k], v); }
   const h = p.toString();
   history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
 }
 
-function matches(j) {
-  const f = { team: els.team.value, place: els.place.value, co: els.co.value, remote: els.remote.checked };
-  if (f.team && j.function !== f.team) return false;
-  if (f.place === "Remote" ? !j.remote : f.place && j.region !== f.place) return false;
-  if (f.co && j.company !== f.co) return false;
-  if (f.remote && !j.remote) return false;
-  const q = els.q.value.trim().toLowerCase();
-  if (q && !`${j.title} ${j.company} ${j.department} ${j.function}`.toLowerCase().includes(q)) return false;
-  return true;
-}
-
-function setOptions(select, values, counts, label) {
+function fill(select, values, label) {
   const keep = select.value;
   select.length = 1;
-  for (const v of values) {
-    const o = document.createElement("option");
-    o.value = v; o.textContent = label ? label(v, counts[v] || 0) : v;
-    select.add(o);
-  }
+  for (const v of values) { const o = new Option(label ? label(v) : v, v); select.add(o); }
   select.value = keep;
 }
 
 function render() {
-  fitSelects();
-  const all = DATA.jobs;
-  const list = all.filter(matches);
+  const list = DATA.jobs.filter(matches);
   const shown = showAll ? list : list.slice(0, CONFIG.pageSize);
-  const coMap = Object.fromEntries(DATA.companies.map((c) => [c.name, c]));
-  const filtered = els.team.value || els.place.value || els.co.value || els.q.value.trim() || els.remote.checked;
+  const filtered = Object.keys(HASH_KEYS).some((k) => els[k].value.trim());
 
-  $("#status").innerHTML = filtered
-    ? `${plural(list.length, "role")} match. <button class="linkish" id="clear">Clear filters</button>`
-    : `Newest first`;
-  const clear = $("#clear");
-  if (clear) clear.onclick = () => { els.team.value = els.place.value = els.co.value = els.q.value = ""; els.remote.checked = false; update(); };
+  $("#count").textContent = `${plural(list.length, "open position")}`;
+  $("#clear").hidden = !filtered;
 
-  const ul = $("#jobs");
-  ul.innerHTML = shown.length ? shown.map((j, i) => {
-    const co = coMap[j.company] || { name: j.company };
-    const loc = j.location || "See posting";
-    const remoteTag = j.remote && !/remote/i.test(loc) ? `<span class="tag">Remote</span>` : "";
-    return `<li class="job" style="--i:${Math.min(i, 20)}"><a class="row" href="${esc(j.url)}" target="_blank" rel="noopener">
-      ${mark(co)}
-      <div class="main"><p class="title">${esc(j.title)}</p><div class="sub">${esc(j.company)}${co.sector ? `, ${esc(co.sector)}` : ""}</div></div>
-      <div class="where">${esc(loc)}${remoteTag}</div>
-      <div class="fn">${esc(j.function)}</div>
-      <div class="when">${isNew(j) ? `<span class="tag new">New</span>` : fmtDate(j.posted)}</div>
+  $("#jobs").innerHTML = shown.length ? shown.map((j) => {
+    const bits = [esc(j.company), esc(j.location || "Location on posting")];
+    if (j.remote && !/remote/i.test(j.location)) bits.push("Remote");
+    return `<li class="job"><a href="${esc(j.url)}" target="_blank" rel="noopener">
+      <div class="text">
+        <p class="title">${esc(j.title)}${isNew(j) ? `<span class="tag new">New</span>` : ""}</p>
+        <div class="sub">${bits.join('<span class="dot">·</span>')}</div>
+      </div>
+      <span class="apply">Apply ${ARROW}</span>
     </a></li>`;
-  }).join("") : `<li class="empty"><p><strong>No roles match those filters.</strong></p>
-      <p>Try a wider location or team${CONFIG.talentFormUrl ? `, or <a href="${esc(CONFIG.talentFormUrl)}" target="_blank" rel="noopener">join the talent network</a> and we'll reach out when one opens` : ""}.</p></li>`;
+  }).join("") : `<li class="empty"><strong>No positions match those filters.</strong>Try a different company, team or location.</li>`;
 
   const more = $("#more");
   more.hidden = showAll || list.length <= CONFIG.pageSize;
-  more.textContent = `Show all ${list.length} roles`;
-}
-
-function renderRoster() {
-  const cos = [...DATA.companies].sort((a, b) => (b.job_count - a.job_count) || a.name.localeCompare(b.name));
-  const hiring = cos.filter((c) => c.job_count > 0).length;
-  $("#rosterNote").textContent = `${plural(DATA.companies.length, "company")}, ${hiring} hiring right now.`;
-  $("#cos").innerHTML = cos.map((c) => `<li class="co">${mark(c)}<div style="min-width:0">
-      <h3><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a></h3>
-      <div class="meta">${esc(c.sector)}</div>
-      <div class="hire">${c.job_count
-        ? `<button class="linkish" data-co="${esc(c.name)}">${plural(c.job_count, "open role")}</button>`
-        : `<span class="quiet">No open roles listed</span>`}</div>
-    </div></li>`).join("");
-  $("#cos").onclick = (e) => {
-    const b = e.target.closest("button[data-co]");
-    if (!b) return;
-    els.team.value = els.place.value = els.q.value = ""; els.remote.checked = false; els.co.value = b.dataset.co;
-    update(); $("#ask").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
-  };
+  more.textContent = `Show all ${list.length} positions`;
 }
 
 function update() { showAll = false; writeHash(); render(); }
 
 function init(data) {
   DATA = data;
-  const jobs = data.jobs;
-  const count = (key) => jobs.reduce((m, j) => (m[j[key]] = (m[j[key]] || 0) + 1, m), {});
-  const fnCounts = count("function"), coCounts = count("company"), regCounts = count("region");
-  regCounts.Remote = jobs.filter((j) => j.remote).length;
+  CO = Object.fromEntries(data.companies.map((c) => [c.name, c]));
+  // Group by company, then title, like a directory.
+  data.jobs.sort((a, b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
 
-  setOptions(els.team, Object.keys(fnCounts).sort((a, b) => fnCounts[b] - fnCounts[a]), fnCounts, (v) => v);
-  setOptions(els.place, ["Israel", "United States", "Europe", "Asia-Pacific", "Remote"].filter((r) => regCounts[r]), regCounts,
-    (v) => v === "Remote" ? "remote" : v === "United States" ? "the US" : v);
-  setOptions(els.co, Object.keys(coCounts).sort(), coCounts, (v) => v);
+  const uniq = (arr) => [...new Set(arr.filter(Boolean))];
+  const hiring = uniq(data.jobs.map((j) => j.company)).sort((a, b) => a.localeCompare(b));
+  fill(els.co, hiring);
+  els.co.options[0].text = `All companies (${hiring.length})`;
+  fill(els.sector, uniq(hiring.map((n) => (CO[n] || {}).sector)).sort());
+  const teamCount = data.jobs.reduce((m, j) => (m[j.function] = (m[j.function] || 0) + 1, m), {});
+  fill(els.team, Object.keys(teamCount).sort((a, b) => teamCount[b] - teamCount[a]));
+  const regions = ["Israel", "United States", "Europe", "Asia-Pacific"].filter((r) => data.jobs.some((j) => j.region === r));
+  if (data.jobs.some((j) => j.remote)) regions.push("Remote");
+  fill(els.place, regions);
 
-  sizer.style.cssText = "position:absolute;visibility:hidden;white-space:pre;font:inherit;letter-spacing:inherit";
-  document.fonts?.ready.then(fitSelects);
-  const hiring = Object.keys(coCounts).length;
-  $("#count").innerHTML = `<b>${plural(jobs.length, "open role")}</b> at ${plural(hiring, "company")} we've backed.`;
   $("#updated").textContent = "Updated " + new Date(data.updated_at).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-
-  readHash(); render(); renderRoster();
-  requestAnimationFrame(() => $("#jobs").classList.add("ready"));
-  setTimeout(() => $("#jobs").classList.remove("ready"), 1200);
+  readHash(); render();
 }
 
 // Settings
-document.title = CONFIG.fundName;
-$("#brand").textContent = CONFIG.fundName; $("#brand").href = CONFIG.homeUrl;
-$("#talentCta").href = $("#talentTop").href = CONFIG.talentFormUrl;
-if (!CONFIG.talentFormUrl) { $("#network").hidden = true; $("#talentTop").hidden = true; }
+document.title = `${CONFIG.fundName} | Portfolio Jobs`;
+$("#kicker").textContent = CONFIG.fundName;
+$("#intro").textContent = `Open roles across the ${CONFIG.fundName} portfolio. Applications go directly to each company.`;
 
-for (const el of [els.team, els.place, els.co, els.remote]) el.addEventListener("change", update);
+for (const k of SELECTS) els[k].addEventListener("change", update);
 let t; els.q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(update, 120); });
+$("#clear").onclick = () => { for (const k in HASH_KEYS) els[k].value = ""; update(); };
 $("#more").onclick = () => { showAll = true; render(); };
 window.addEventListener("hashchange", () => { readHash(); render(); });
 
@@ -387,8 +259,8 @@ if (window.parent !== window && "ResizeObserver" in window) {
   if (!r.ok) throw new Error(r.status);
   return r.json();
 })).then(init).catch(() => {
-  $("#count").textContent = "Open roles couldn't load.";
-  $("#jobs").innerHTML = `<li class="empty"><p><strong>jobs.json didn't load.</strong></p><p>Open this page from the published site (not as a local file), or run <code>python scripts/fetch_jobs.py</code> to create it.</p></li>`;
+  $("#count").textContent = "Open positions couldn't load.";
+  $("#jobs").innerHTML = `<li class="empty"><strong>jobs.json didn't load.</strong>Open this page from the published site, not as a local file.</li>`;
 });
 </script>
 </body>
