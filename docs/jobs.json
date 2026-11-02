@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T21:44:49+00:00",
+ "updated_at": "2026-11-02T22:19:16+00:00",
  "baseline": "2026-10-28",
  "job_count": 91,
  "companies": [
@@ -312,7 +312,7 @@
    "status": "ok"
   },
   {
-   "name": "Papaya Gaming",
+   "name": "Papaya",
    "website": "https://www.papaya.com/",
    "careers_url": "https://www.comeet.com/jobs/papayagaming/46.00B",
    "sector": "Gaming",
@@ -358,9 +358,9 @@
  ],
  "jobs": [
   {
-   "id": "92e25144c005",
+   "id": "748707dc0e3d",
    "title": "Treasury Manager",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/treasury-manager/E0.479",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -372,9 +372,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "bed870599d47",
+   "id": "2d57286398de",
    "title": "Senior Unity Engineer",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/A9.14B",
    "location": "Poland",
    "region": "Europe",
@@ -386,9 +386,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "c4dd160f8a16",
+   "id": "23cc2db140d4",
    "title": "Senior Unity Engineer",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/C7.37F",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -400,9 +400,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "c0979e21a9e3",
+   "id": "22e7b2a15ce6",
    "title": "Senior Backend Engineer (Optimus Team)",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-backend-engineer-optimus-team/C0.471",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -414,9 +414,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "86b983bb58d6",
+   "id": "9e1c653ea5ce",
    "title": "Game Operation Lead",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-operation-lead/A8.47A",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -428,9 +428,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "f2507ae209e0",
+   "id": "ac8ba92231ea",
    "title": "Data Scientist",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -442,9 +442,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "d52daa599a33",
+   "id": "cb8147ffda9b",
    "title": "Data Analyst",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-analyst/EF.27E",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -456,9 +456,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "9cf8d500735c",
+   "id": "74b58421d29c",
    "title": "Backend Engineer",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/backend-engineer/16.373",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -470,9 +470,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "b8c29e95b56f",
+   "id": "8e3d88b79a7c",
    "title": "Assistant Controller",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/assistant-controller/95.27E",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -890,9 +890,9 @@
    "first_seen": "2026-10-28"
   },
   {
-   "id": "e50b8e63096b",
+   "id": "13b444036db6",
    "title": "UI/UX Designer Lead",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -904,9 +904,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "07c97f5be968",
+   "id": "f38c81ba6d75",
    "title": "Business Analyst",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/business-analyst/3A.473",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -1114,9 +1114,9 @@
    "first_seen": "2026-10-28"
   },
   {
-   "id": "67a6dfef763b",
+   "id": "e2f2a09988af",
    "title": "VP Product",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/vp-product/4C.F6D",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -1128,9 +1128,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "0aea7566e6a4",
+   "id": "e685781982a6",
    "title": "Software Team Lead (Payments & Fraud)",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
    "location": "Poland",
    "region": "Europe",
@@ -1142,9 +1142,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "056f72b3d5dd",
+   "id": "5d934696e590",
    "title": "Senior Backend Engineer",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-backend-engineer/91.470",
    "location": "Poland",
    "region": "Europe",
@@ -1156,9 +1156,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "e26cffe05797",
+   "id": "34240aa57806",
    "title": "Game Economy Team Lead (Solitaire)",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-economy-team-lead--solitaire/DF.270",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -1170,9 +1170,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "cf28f95dca9c",
+   "id": "1e0c102bdb8a",
    "title": "Director of Performance",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/director-of-performance/91.371",
    "location": "Tel Aviv",
    "region": "Israel",
@@ -1184,9 +1184,9 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "ef860f1701b1",
+   "id": "7a89657160d8",
    "title": "Customer Support Agent (Native-Level English)",
-   "company": "Papaya Gaming",
+   "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
    "location": "Tel Aviv",
    "region": "Israel",
