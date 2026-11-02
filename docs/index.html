@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Jobs</title>
+<meta name="description" content="Open roles at the companies we've backed, updated every night.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F5F7FA;
+  --surface: #FFFFFF;
+  --ink: #14213D;
+  --muted: #5B6475;
+  --line: #DCE1E9;
+  --accent: #2346E8;
+  --accent-soft: #E6EBFD;
+  --new: #1C7C54;
+  --new-soft: #E2F3EA;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1526; --surface: #141C30; --ink: #E8ECF4; --muted: #98A2B6; --line: #26304A;
+    --accent: #7F98FF; --accent-soft: #1C2750; --new: #5FD39B; --new-soft: #12301F; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1526; --surface: #141C30; --ink: #E8ECF4; --muted: #98A2B6; --line: #26304A;
+  --accent: #7F98FF; --accent-soft: #1C2750; --new: #5FD39B; --new-soft: #12301F; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Header */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; }
+.brand { font: 600 17px/1 var(--display); text-decoration: none; letter-spacing: -0.01em; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; background: var(--ink); color: var(--bg);
+  font: 600 14px/1 var(--body); text-decoration: none; border: 0; cursor: pointer; white-space: nowrap; }
+.btn:hover { background: var(--accent); color: #fff; }
+
+/* Hero: the sentence is the filter */
+.hero { padding: 56px 0 28px; }
+.count { font: 400 clamp(17px, 2vw, 19px)/1.4 var(--body); color: var(--muted); margin: 0 0 18px; }
+.count b { color: var(--ink); font-weight: 600; }
+.ask { font: 600 clamp(34px, 6.2vw, 68px)/1.08 var(--display); letter-spacing: -0.035em; margin: 0; max-width: 18ch; }
+.ask .pick { position: relative; display: inline-block; white-space: nowrap; }
+.ask select {
+  appearance: none; -webkit-appearance: none; font: inherit; letter-spacing: inherit; color: var(--accent); background: transparent;
+  border: 0; border-bottom: 0.07em solid currentColor; padding: 0 0.62em 0 0; margin: 0; cursor: pointer; border-radius: 0; max-width: 100%;
+}
+.ask .pick::after { content: ""; position: absolute; right: 0.08em; top: 0.48em; width: 0.26em; height: 0.26em; border: solid var(--accent);
+  border-width: 0 0.07em 0.07em 0; transform: rotate(45deg); pointer-events: none; }
+.ask select:focus-visible { outline-offset: 6px; }
+.ask select option { font: 400 16px var(--body); color: #14213D; }
+
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 34px; }
+.search { position: relative; flex: 1 1 280px; max-width: 420px; }
+.search input { width: 100%; font: 400 16px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: 11px 14px 11px 40px; }
+.search input::placeholder { color: var(--muted); }
+.search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+.toggle { display: inline-flex; align-items: center; gap: 9px; font-size: 15px; cursor: pointer; user-select: none; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
+.status { font-size: 15px; color: var(--muted); margin-left: auto; }
+.linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Job list */
+.jobs { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid var(--line); }
+.job { border-bottom: 1px solid var(--line); }
+.job a.row { display: grid; grid-template-columns: 40px minmax(0, 1fr) 200px 150px 64px; align-items: center; gap: 16px;
+  padding: 16px 8px; text-decoration: none; }
+.job a.row:hover { background: var(--surface); }
+.job a.row:hover .title { color: var(--accent); }
+.mark { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; font: 700 16px/1 var(--display);
+  color: #14213D; overflow: hidden; flex: none; }
+.mark img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
+.title { font: 600 17px/1.3 var(--body); margin: 0; }
+.sub { font-size: 14px; color: var(--muted); margin-top: 2px; }
+.where { font-size: 15px; }
+.tag { display: inline-block; font-size: 12.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; margin-left: 6px;
+  background: var(--accent-soft); color: var(--accent); vertical-align: 1px; }
+.tag.new { background: var(--new-soft); color: var(--new); margin: 0; }
+.fn { font-size: 15px; color: var(--muted); }
+.when { font-size: 14px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+.empty { padding: 48px 8px; border-bottom: 1px solid var(--line); }
+.empty p { margin: 0 0 8px; max-width: 56ch; }
+.more { display: block; margin: 20px auto 0; }
+
+/* Talent network */
+.network { margin: 72px 0 0; padding: 36px; background: var(--ink); color: var(--bg); border-radius: 20px;
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: center; }
+.network h2 { font: 600 clamp(24px, 3.4vw, 32px)/1.15 var(--display); letter-spacing: -0.02em; margin: 0 0 8px; }
+.network p { margin: 0; opacity: 0.8; max-width: 52ch; }
+.network .btn { background: var(--bg); color: var(--ink); padding: 14px 22px; font-size: 15px; }
+.network .btn:hover { background: var(--accent); color: #fff; }
+
+/* Roster */
+.roster { margin-top: 80px; }
+.roster h2 { font: 600 28px/1.2 var(--display); letter-spacing: -0.02em; margin: 0 0 6px; }
+.roster > p { color: var(--muted); margin: 0 0 24px; }
+.cos { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 32px; }
+.co { display: flex; gap: 14px; padding: 16px 0; border-top: 1px solid var(--line); min-width: 0; }
+.co .mark { width: 36px; height: 36px; font-size: 14px; border-radius: 9px; }
+.co h3 { font: 600 16px/1.3 var(--body); margin: 0; }
+.co h3 a { text-decoration: none; }
+.co h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.co .meta { font-size: 14px; color: var(--muted); }
+.co .hire { font-size: 14px; margin-top: 4px; }
+.co .hire button { font-weight: 600; }
+.co .quiet { color: var(--muted); }
+
+footer { margin: 72px 0 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted);
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+
+@media (max-width: 860px) {
+  .job a.row { grid-template-columns: 40px minmax(0, 1fr) auto; grid-template-areas: "m t w" "m l w"; column-gap: 16px; row-gap: 2px; }
+  .job .mark { grid-area: m; align-self: start; }
+  .job .main { grid-area: t; }
+  .job .where { grid-area: l; font-size: 14px; color: var(--muted); }
+  .job .fn { display: none; }
+  .job .when { grid-area: w; align-self: start; }
+  .cos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .wrap { padding: 0 16px; }
+  .hero { padding-top: 32px; }
+  .status { margin-left: 0; width: 100%; }
+  .network { grid-template-columns: 1fr; padding: 28px 22px; }
+  .cos { grid-template-columns: 1fr; }
+  .job a.row { padding: 14px 4px; column-gap: 12px; row-gap: 2px; }
+  .network .btn { justify-content: center; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .jobs.ready .job { animation: rise .35s ease both; animation-delay: calc(var(--i) * 18ms); }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" id="brand" href="/">Portfolio Jobs</a>
+    <a class="btn" id="talentTop" href="#" target="_blank" rel="noopener">Join the talent network</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="ask">
+      <p class="count" id="count">Loading open roles…</p>
+      <h1 class="ask" id="ask">
+        Show me
+        <span class="pick"><label class="sr" for="fTeam">Team</label><select id="fTeam"><option value="">any</option></select></span>
+        roles in
+        <span class="pick"><label class="sr" for="fPlace">Location</label><select id="fPlace"><option value="">anywhere</option></select></span>
+        at
+        <span class="pick"><label class="sr" for="fCo">Company</label><select id="fCo"><option value="">any company</option></select></span>
+      </h1>
+      <div class="tools">
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <label class="sr" for="fQ">Search roles</label>
+          <input id="fQ" type="search" placeholder="Search titles, e.g. backend, product" autocomplete="off">
+        </div>
+        <label class="toggle"><input type="checkbox" id="fRemote"> Remote only</label>
+        <p class="status" id="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <ul class="jobs" id="jobs" aria-label="Open roles"></ul>
+    <button class="btn more" id="more" hidden>Show all roles</button>
+
+    <section class="network" id="network" aria-labelledby="netTitle">
+      <div>
+        <h2 id="netTitle">Not seeing the right role?</h2>
+        <p>Tell us what you are looking for. When a portfolio company is hiring for it, we'll make the introduction.</p>
+      </div>
+      <a class="btn" id="talentCta" href="#" target="_blank" rel="noopener">Join the talent network</a>
+    </section>
+
+    <section class="roster" aria-labelledby="rosterTitle">
+      <h2 id="rosterTitle">The portfolio</h2>
+      <p id="rosterNote"></p>
+      <ul class="cos" id="cos"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <span id="updated"></span>
+    <span>Roles are pulled nightly from each company's careers page. Apply directly with the company.</span>
+  </footer>
+</div>
+
+<script>
+/* ---- Settings: edit these ---------------------------------------------- */
+const CONFIG = {
+  fundName: "Portfolio Jobs",                 // shown top-left and in the tab title
+  homeUrl: "/",                               // where the name links to (your main site)
+  talentFormUrl: "",                          // optional: a sign-up form link; leave empty to hide the talent network
+  pageSize: 40,                               // roles shown before "Show all roles"
+};
+/* ------------------------------------------------------------------------ */
+
+const $ = (s) => document.querySelector(s);
+const els = { team: $("#fTeam"), place: $("#fPlace"), co: $("#fCo"), q: $("#fQ"), remote: $("#fRemote") };
+let DATA = null, showAll = false;
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const plural = (n, w) => `${n} ${n === 1 ? w : w.endsWith("y") ? w.slice(0, -1) + "ies" : w + "s"}`;
+
+// Size each sentence dropdown to its current choice, so the headline reads like a sentence.
+const sizer = document.createElement("span");
+function fitSelects() {
+  for (const s of [els.team, els.place, els.co]) {
+    sizer.textContent = s.options[s.selectedIndex]?.text || "";
+    s.parentNode.appendChild(sizer);
+    s.style.width = `calc(${sizer.getBoundingClientRect().width}px + 0.66em)`;
+    sizer.remove();
+  }
+}
+
+function hue(name) { let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
+function mark(co) {
+  const name = co.name || co;
+  const logo = co.logo;
+  const initials = name.replace(/[^A-Za-z0-9 ]/g, "").split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase() || "?";
+  const style = `background:hsl(${hue(name)} 62% 86%)`;
+  return logo
+    ? `<span class="mark" aria-hidden="true"><img src="${esc(logo)}" alt="" loading="lazy"></span>`
+    : `<span class="mark" style="${style}" aria-hidden="true">${esc(initials.slice(0, 2))}</span>`;
+}
+
+const fmtDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+function isNew(j) {
+  if (!j.first_seen || j.first_seen === DATA.baseline) return false;
+  return (Date.parse(DATA.updated_at) - Date.parse(j.first_seen)) / 864e5 <= 7;
+}
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  els.team.value = p.get("team") || ""; els.place.value = p.get("in") || "";
+  els.co.value = p.get("at") || ""; els.q.value = p.get("q") || ""; els.remote.checked = p.get("remote") === "1";
+  for (const s of [els.team, els.place, els.co]) if (s.selectedIndex < 0) s.value = "";
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  if (els.team.value) p.set("team", els.team.value);
+  if (els.place.value) p.set("in", els.place.value);
+  if (els.co.value) p.set("at", els.co.value);
+  if (els.q.value.trim()) p.set("q", els.q.value.trim());
+  if (els.remote.checked) p.set("remote", "1");
+  const h = p.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+}
+
+function matches(j) {
+  const f = { team: els.team.value, place: els.place.value, co: els.co.value, remote: els.remote.checked };
+  if (f.team && j.function !== f.team) return false;
+  if (f.place === "Remote" ? !j.remote : f.place && j.region !== f.place) return false;
+  if (f.co && j.company !== f.co) return false;
+  if (f.remote && !j.remote) return false;
+  const q = els.q.value.trim().toLowerCase();
+  if (q && !`${j.title} ${j.company} ${j.department} ${j.function}`.toLowerCase().includes(q)) return false;
+  return true;
+}
+
+function setOptions(select, values, counts, label) {
+  const keep = select.value;
+  select.length = 1;
+  for (const v of values) {
+    const o = document.createElement("option");
+    o.value = v; o.textContent = label ? label(v, counts[v] || 0) : v;
+    select.add(o);
+  }
+  select.value = keep;
+}
+
+function render() {
+  fitSelects();
+  const all = DATA.jobs;
+  const list = all.filter(matches);
+  const shown = showAll ? list : list.slice(0, CONFIG.pageSize);
+  const coMap = Object.fromEntries(DATA.companies.map((c) => [c.name, c]));
+  const filtered = els.team.value || els.place.value || els.co.value || els.q.value.trim() || els.remote.checked;
+
+  $("#status").innerHTML = filtered
+    ? `${plural(list.length, "role")} match. <button class="linkish" id="clear">Clear filters</button>`
+    : `Newest first`;
+  const clear = $("#clear");
+  if (clear) clear.onclick = () => { els.team.value = els.place.value = els.co.value = els.q.value = ""; els.remote.checked = false; update(); };
+
+  const ul = $("#jobs");
+  ul.innerHTML = shown.length ? shown.map((j, i) => {
+    const co = coMap[j.company] || { name: j.company };
+    const loc = j.location || "See posting";
+    const remoteTag = j.remote && !/remote/i.test(loc) ? `<span class="tag">Remote</span>` : "";
+    return `<li class="job" style="--i:${Math.min(i, 20)}"><a class="row" href="${esc(j.url)}" target="_blank" rel="noopener">
+      ${mark(co)}
+      <div class="main"><p class="title">${esc(j.title)}</p><div class="sub">${esc(j.company)}${co.sector ? `, ${esc(co.sector)}` : ""}</div></div>
+      <div class="where">${esc(loc)}${remoteTag}</div>
+      <div class="fn">${esc(j.function)}</div>
+      <div class="when">${isNew(j) ? `<span class="tag new">New</span>` : fmtDate(j.posted)}</div>
+    </a></li>`;
+  }).join("") : `<li class="empty"><p><strong>No roles match those filters.</strong></p>
+      <p>Try a wider location or team${CONFIG.talentFormUrl ? `, or <a href="${esc(CONFIG.talentFormUrl)}" target="_blank" rel="noopener">join the talent network</a> and we'll reach out when one opens` : ""}.</p></li>`;
+
+  const more = $("#more");
+  more.hidden = showAll || list.length <= CONFIG.pageSize;
+  more.textContent = `Show all ${list.length} roles`;
+}
+
+function renderRoster() {
+  const cos = [...DATA.companies].sort((a, b) => (b.job_count - a.job_count) || a.name.localeCompare(b.name));
+  const hiring = cos.filter((c) => c.job_count > 0).length;
+  $("#rosterNote").textContent = `${plural(DATA.companies.length, "company")}, ${hiring} hiring right now.`;
+  $("#cos").innerHTML = cos.map((c) => `<li class="co">${mark(c)}<div style="min-width:0">
+      <h3><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a></h3>
+      <div class="meta">${esc(c.sector)}</div>
+      <div class="hire">${c.job_count
+        ? `<button class="linkish" data-co="${esc(c.name)}">${plural(c.job_count, "open role")}</button>`
+        : `<span class="quiet">No open roles listed</span>`}</div>
+    </div></li>`).join("");
+  $("#cos").onclick = (e) => {
+    const b = e.target.closest("button[data-co]");
+    if (!b) return;
+    els.team.value = els.place.value = els.q.value = ""; els.remote.checked = false; els.co.value = b.dataset.co;
+    update(); $("#ask").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  };
+}
+
+function update() { showAll = false; writeHash(); render(); }
+
+function init(data) {
+  DATA = data;
+  const jobs = data.jobs;
+  const count = (key) => jobs.reduce((m, j) => (m[j[key]] = (m[j[key]] || 0) + 1, m), {});
+  const fnCounts = count("function"), coCounts = count("company"), regCounts = count("region");
+  regCounts.Remote = jobs.filter((j) => j.remote).length;
+
+  setOptions(els.team, Object.keys(fnCounts).sort((a, b) => fnCounts[b] - fnCounts[a]), fnCounts, (v) => v);
+  setOptions(els.place, ["Israel", "United States", "Europe", "Asia-Pacific", "Remote"].filter((r) => regCounts[r]), regCounts,
+    (v) => v === "Remote" ? "remote" : v === "United States" ? "the US" : v);
+  setOptions(els.co, Object.keys(coCounts).sort(), coCounts, (v) => v);
+
+  sizer.style.cssText = "position:absolute;visibility:hidden;white-space:pre;font:inherit;letter-spacing:inherit";
+  document.fonts?.ready.then(fitSelects);
+  const hiring = Object.keys(coCounts).length;
+  $("#count").innerHTML = `<b>${plural(jobs.length, "open role")}</b> at ${plural(hiring, "company")} we've backed.`;
+  $("#updated").textContent = "Updated " + new Date(data.updated_at).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+
+  readHash(); render(); renderRoster();
+  requestAnimationFrame(() => $("#jobs").classList.add("ready"));
+  setTimeout(() => $("#jobs").classList.remove("ready"), 1200);
+}
+
+// Settings
+document.title = CONFIG.fundName;
+$("#brand").textContent = CONFIG.fundName; $("#brand").href = CONFIG.homeUrl;
+$("#talentCta").href = $("#talentTop").href = CONFIG.talentFormUrl;
+if (!CONFIG.talentFormUrl) { $("#network").hidden = true; $("#talentTop").hidden = true; }
+
+for (const el of [els.team, els.place, els.co, els.remote]) el.addEventListener("change", update);
+let t; els.q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(update, 120); });
+$("#more").onclick = () => { showAll = true; render(); };
+window.addEventListener("hashchange", () => { readHash(); render(); });
+
+// When embedded in another site (e.g. a Base44 page), tell the parent page how tall the board is,
+// so the iframe can grow to fit instead of scrolling inside itself.
+if (window.parent !== window && "ResizeObserver" in window) {
+  new ResizeObserver(() => window.parent.postMessage(
+    { type: "portfolio-jobs-height", height: document.documentElement.scrollHeight }, "*"
+  )).observe(document.body);
+}
+
+(window.__JOBS__ ? Promise.resolve(window.__JOBS__) : fetch("jobs.json", { cache: "no-cache" }).then((r) => {
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+})).then(init).catch(() => {
+  $("#count").textContent = "Open roles couldn't load.";
+  $("#jobs").innerHTML = `<li class="empty"><p><strong>jobs.json didn't load.</strong></p><p>Open this page from the published site (not as a local file), or run <code>python scripts/fetch_jobs.py</code> to create it.</p></li>`;
+});
+</script>
+</body>
+</html>

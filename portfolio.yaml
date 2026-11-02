@@ -1,0 +1,248 @@
+# Portfolio companies shown on the job board.
+#
+# careers.type tells the nightly fetcher where each company's jobs live:
+#   greenhouse | lever | ashby | workable  -> slug
+#   comeet                                  -> slug + uid  (from comeet.com/jobs/<slug>/<uid>)
+#   hibob                                   -> slug        (from <slug>.careers.hibob.com)
+#   html                                    -> url + link  (regex for job links on the company's own careers page)
+#                                              or url + item (CSS selector for each job card) for pages without per-job links
+#                                              optional: title / location / department CSS selectors inside a card
+#   none                                    -> no public jobs; company still shows in the roster
+#
+# Run `python scripts/detect_careers.py` after adding a company to get a suggested careers block.
+# Detected on 2026-10-28.
+
+companies:
+  # ---- SCV II ----
+  - name: Able
+    website: https://www.ableintelligence.ai/
+    sector: Industry 4.0
+    fund: SCV II
+    description: Manufacturing orchestration platform powered by AI.
+    careers: {type: none}
+
+  - name: Atom
+    website: https://runatom.ai/
+    sector: AI Infrastructure
+    fund: SCV II
+    description: GPU virtualization and scheduling layer built for modern AI inference workloads.
+    careers: {type: none}
+    note: Site could not be checked during setup; run detect_careers.py
+
+  - name: Ghostlayer
+    website: https://myghostlayer.com/
+    sector: Edge AI
+    fund: SCV II
+    description: Predicting how AI models perform on target edge system-on-chips, before they're flashed to hardware.
+    careers: {type: html, url: "https://myghostlayer.com/careers", link: "/careers/apply/[a-z0-9-]+", default_location: "Giv'atayim, Israel"}
+
+  - name: HeroCon
+    website: https://herocon.ai/
+    sector: Construction Tech
+    fund: SCV II
+    description: AI-powered compliance hub for design-build construction firms.
+    careers: {type: none}
+    note: Site could not be checked during setup; run detect_careers.py
+
+  - name: LetsGo
+    website: https://letsgooo.com/
+    sector: Collectibles
+    fund: SCV II
+    description: Social collectibles marketplace that enables fast, simple, and fully secured transactions.
+    careers: {type: none}
+
+  - name: LukuWorks
+    website: https://lukuworks.com/
+    sector: Gaming
+    fund: SCV II
+    description: Agentic playable user acquisition loop engine.
+    careers: {type: none}
+
+  - name: Replai
+    website: https://www.replaitech.ai/
+    sector: Agentic AI
+    fund: SCV II
+    description: Agentic AI for legacy, mission-critical systems.
+    # Roles are listed on one page with an Apply dialog, no per-role links.
+    careers: {type: html, url: "https://www.replaitech.ai/careers", item: "article.job-row", title: "h3", location: ".job-meta span:nth-of-type(1)", department: ".job-meta span:nth-of-type(3)", apply_url: "https://www.replaitech.ai/careers#open-roles"}
+
+  # ---- SCV I ----
+  - name: Axia Security
+    website: https://axiasecurity.io/
+    sector: Cybersecurity
+    fund: SCV I
+    description: AI-native intelligence layer for sensitive enterprise data control.
+    careers: {type: none}
+
+  - name: Carbon Blue
+    website: https://carbonblue.cc/
+    sector: Climate Tech
+    fund: SCV I
+    description: Reclaiming lime from slag for circular use in steel purification, reducing emissions and lime consumption.
+    careers: {type: none}
+
+  - name: daily.dev
+    website: https://daily.dev/
+    sector: Developer Tools
+    fund: SCV I
+    description: Open-source online developer community to keep abreast of the latest, curated developer news.
+    careers: {type: none, careers_url: "https://daily.dev/careers"}
+
+  - name: Diversion
+    website: https://www.diversion.dev/
+    sector: Developer Tools
+    fund: SCV I
+    description: Collaborative source code management tool for the new cloud age.
+    careers: {type: none}
+
+  - name: HAAT Delivery
+    website: https://www.haat.delivery/
+    sector: Food Delivery
+    fund: SCV I
+    description: End-to-end food delivery platform that democratizes delivery in infrastructure-less areas.
+    careers: {type: none}
+    note: Site could not be checked during setup; run detect_careers.py
+
+  - name: Materialspace
+    website: https://www.materialspace.io/
+    sector: Construction Tech
+    fund: SCV I
+    description: Developing the commercial software backbone for the building trades.
+    careers: {type: html, url: "https://materialspace.io/careers", link: "/careers/[a-z0-9-]+"}
+
+  - name: Matia
+    website: https://www.matia.io/
+    sector: DataOps
+    fund: SCV I
+    description: Automating data pipelines from data ingestion to model deployment, ensuring efficient and scalable data operations.
+    careers: {type: ashby, slug: matia}
+
+  - name: Modulight
+    website: https://www.modulight.bio/
+    sector: Life Sciences
+    fund: SCV I
+    description: Optogenetics platform of novel treatment modalities for severe neurological conditions.
+    careers: {type: none}
+
+  - name: Opmed AI
+    website: https://www.opmed.ai/
+    sector: Health Tech
+    fund: SCV I
+    description: Leveraging network science to boost hospitals' agility and resilience through optimal resource allocation.
+    careers: {type: html, url: "https://www.opmed.ai/careers", link: "/careers/[a-z0-9-]+"}
+
+  - name: Playvault
+    website: https://www.playvault.co/
+    sector: Gaming
+    fund: SCV I
+    description: Mobile-gaming rewards platform that turns cash-out apps into full gaming experiences.
+    careers: {type: none}
+    note: playvault.co now redirects to playmagnet.io; confirm the current name and site
+
+  - name: Vayu
+    website: https://www.withvayu.com/
+    sector: FinTech
+    fund: SCV I
+    description: Usage-based billing and modern AR platform helping SaaS businesses approach complex pricing and subscription models.
+    careers: {type: html, url: "https://withvayu.com/about/", link: "/job/[a-z0-9-]+", location: ".position-location"}
+
+  - name: Yo Foods
+    website: https://www.yo-egg.com/
+    sector: FoodTech
+    fund: SCV I
+    description: Developing an alternative egg substitute based entirely on plant-based ingredients.
+    careers: {type: none}
+
+  # ---- HVL + SCV I ----
+  - name: Geckos Games
+    website: https://thrillzz.com/
+    sector: Gaming
+    fund: HVL, SCV I
+    description: Free-to-play sports-gaming social app specifically designed for the mass-market casual user base.
+    careers: {type: none}
+
+  - name: Sensi AI
+    website: https://sensi.ai/
+    sector: Health Tech
+    fund: HVL, SCV I
+    description: AI-powered in-home virtual care agent enabling accurate and qualitative elderly care.
+    careers: {type: comeet, slug: sensi, uid: E7.00F}
+
+  # ---- HVL ----
+  - name: BigaBid
+    website: https://www.bigabid.com/
+    sector: Advertising Tech
+    fund: HVL
+    description: Real-time data-driven programmatic user acquisition and DSP retargeting tools that enable LTV-optimized audience targeting.
+    careers: {type: html, url: "https://www.bigabid.com/careers/", item: "#comeet_data .one-career", title: ".career-name", link_selector: ".career-name a", location: ".career-city", department: ".career-department"}
+
+  - name: Botika
+    website: https://botika.io/
+    sector: AI/ML
+    fund: HVL
+    description: Leveraging state-of-the-art synthetic media to power the fashion industry's visual content creation and optimization.
+    careers: {type: none}
+
+  - name: Communix
+    website: https://www.getcomunix.com/
+    sector: Gaming
+    fund: HVL
+    description: Social gaming company redefining interactive gaming experiences grounded in human connections.
+    careers: {type: comeet, slug: comunix, uid: "86.006"}
+
+  - name: Daisy
+    website: https://www.joindaisy.com/
+    sector: Property Tech
+    fund: HVL
+    description: Property management system streamlining digital processes related to building operations.
+    careers: {type: html, url: "https://www.joindaisy.com/careers", link: "/careers/[a-z0-9-]+", title: ".postion_card-title", location: ".postion_card-location"}
+
+  - name: Dynamo Tech
+    website: https://www.dynamo.fyi/
+    sector: Sales Tech
+    fund: HVL
+    description: User engagement tools across multiple communication channels.
+    careers: {type: none}
+
+  - name: Hoopo
+    website: https://www.hoopo.com/
+    sector: Supply Chain
+    fund: HVL
+    description: Low-cost, power-efficient IoT platform, providing end-to-end tracking and monitoring capabilities.
+    careers: {type: hibob, slug: hoopo}
+
+  - name: Our Ritual
+    website: https://www.heyritual.com/
+    sector: Health Tech
+    fund: HVL
+    description: Holistic digital platform redesigning couples' therapy for the modern world.
+    careers: {type: ashby, slug: ourritual}
+
+  - name: Papaya Gaming
+    website: https://www.papaya.com/
+    sector: Gaming
+    fund: HVL
+    description: Mobile gaming platform turning popular games into skills-based, real money tournaments.
+    careers: {type: comeet, slug: papayagaming, uid: "46.00B"}
+
+  - name: Robusta
+    website: https://home.robusta.dev/
+    sector: Developer Tools
+    fund: HVL
+    description: Open-source platform for Kubernetes troubleshooting and automation.
+    careers: {type: html, url: "https://home.robusta.dev/careers", link: "/careers/[a-z0-9-]+"}
+    note: Site announces "Robusta joins Freshworks"; decide whether it stays on the board
+
+  - name: Sedric
+    website: https://www.sedric.ai/
+    sector: FinTech
+    fund: HVL
+    description: AI-based risk and compliance platform for FinTech applications.
+    careers: {type: comeet, slug: sedric, uid: 0A.00F}
+
+  - name: YesChef
+    website: https://yeschef.me/
+    sector: EdTech
+    fund: HVL
+    description: E-learning platform offering exclusive access to home-cooking video classes from top global chefs.
+    careers: {type: none}
