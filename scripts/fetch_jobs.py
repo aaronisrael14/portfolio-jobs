@@ -337,6 +337,9 @@ def normalize(company, raw, today, previous):
         if not title or not r.get("url"):
             continue
         loc = clean_location(r.get("location") or guess_location(r.get("card", "")) or cfg.get("default_location", ""))
+        # Per-company fixes for unhelpful location names, e.g. {Bigabid: Israel} in portfolio.yaml.
+        aliases = {str(k).lower(): v for k, v in (cfg.get("location_aliases") or {}).items()}
+        loc = aliases.get(loc.lower(), loc)
         workplace = r.get("workplace") or guess_workplace(r.get("card", ""))
         remote = workplace == "Remote" or bool(re.search(r"\bremote\b", loc, re.I))
         jid = hashlib.sha1(f"{company['name']}|{r['url']}|{title}|{loc}".encode()).hexdigest()[:12]
