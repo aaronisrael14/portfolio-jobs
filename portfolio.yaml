@@ -174,7 +174,8 @@ companies:
     sector: Advertising Tech
     fund: HVL
     description: Real-time data-driven programmatic user acquisition and DSP retargeting tools that enable LTV-optimized audience targeting.
-    careers: {type: html, url: "https://www.bigabid.com/careers/", item: "#comeet_data .one-career", title: ".career-name", link_selector: ".career-name a", location: ".career-city", department: ".career-department"}
+    # bigabid.com blocks GitHub's servers, so read its Comeet board directly.
+    careers: {type: comeet, slug: bigabid, uid: A4.003}
 
   - name: Botika
     website: https://botika.io/
