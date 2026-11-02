@@ -175,7 +175,7 @@ companies:
     fund: HVL
     description: Real-time data-driven programmatic user acquisition and DSP retargeting tools that enable LTV-optimized audience targeting.
     # bigabid.com blocks GitHub's servers, so read its Comeet board directly.
-    careers: {type: comeet, slug: bigabid, uid: A4.003}
+    careers: {type: comeet, slug: bigabid, uid: A4.003, location_aliases: {Bigabid: Israel}}
 
   - name: Botika
     website: https://botika.io/
