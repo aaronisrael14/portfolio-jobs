@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T22:45:52+00:00",
+ "updated_at": "2026-11-03T10:57:08+00:00",
  "baseline": "2026-11-02",
  "job_count": 91,
  "companies": [
@@ -358,6 +358,62 @@
  ],
  "jobs": [
   {
+   "id": "65693c687bc6",
+   "title": "Implementation Manager (Mid West)",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/implementation-manager-mid-west/20.170",
+   "location": "Remote",
+   "region": "",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "Operations",
+   "function": "Customer Success",
+   "posted": "2026-11-03",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "cb8147ffda9b",
+   "title": "Data Analyst",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-analyst/EF.27E",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "e4dd7ebc516d",
+   "title": "Customer Success Manager",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/customer-success-manager/2B.148",
+   "location": "Beijing",
+   "region": "Asia-Pacific",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Growth",
+   "function": "Customer Success",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7f14f54276db",
+   "title": "Account Executive - EMEA",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/account-executive---emea/33.37F",
+   "location": "UK- Remote",
+   "region": "Europe",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "Sales",
+   "function": "Sales & BD",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "748707dc0e3d",
    "title": "Treasury Manager",
    "company": "Papaya",
@@ -432,20 +488,6 @@
    "title": "Data Scientist",
    "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "cb8147ffda9b",
-   "title": "Data Analyst",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-analyst/EF.27E",
    "location": "Tel Aviv",
    "region": "Israel",
    "remote": false,
@@ -946,20 +988,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "7f14f54276db",
-   "title": "Account Executive - EMEA",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/account-executive---emea/33.37F",
-   "location": "UK- Remote",
-   "region": "Europe",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "Sales",
-   "function": "Sales & BD",
-   "posted": "2026-11-01",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "086167f2cd96",
    "title": "Account Executive - North America",
    "company": "BigaBid",
@@ -1391,34 +1419,6 @@
    "department": "Product",
    "function": "Data & AI",
    "posted": "2026-10-22",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "e4dd7ebc516d",
-   "title": "Customer Success Manager",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/customer-success-manager/2B.148",
-   "location": "Beijing",
-   "region": "Asia-Pacific",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Growth",
-   "function": "Customer Success",
-   "posted": "2026-10-22",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "65693c687bc6",
-   "title": "Implementation Manager (Mid West)",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/implementation-manager-mid-west/20.170",
-   "location": "Remote",
-   "region": "",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "Operations",
-   "function": "Customer Success",
-   "posted": "2026-10-20",
    "first_seen": "2026-10-28"
   },
   {
