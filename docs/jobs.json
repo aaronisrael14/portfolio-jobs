@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-03T10:57:08+00:00",
+ "updated_at": "2026-11-04T11:00:25+00:00",
  "baseline": "2026-11-02",
- "job_count": 91,
+ "job_count": 90,
  "companies": [
   {
    "name": "Able",
@@ -341,7 +341,7 @@
    "fund": "HVL",
    "description": "AI-based risk and compliance platform for FinTech applications.",
    "logo": "",
-   "job_count": 3,
+   "job_count": 2,
    "status": "ok"
   },
   {
@@ -357,6 +357,34 @@
   }
  ],
  "jobs": [
+  {
+   "id": "748707dc0e3d",
+   "title": "Treasury Manager",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/treasury-manager/E0.479",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Finance",
+   "function": "Finance & Legal",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7c7e781b309b",
+   "title": "Forward Deployment Strategist",
+   "company": "Opmed AI",
+   "url": "https://www.opmed.ai/careers/forward-deployment-strategist",
+   "location": "New York metropolitan area (NY, NJ, CT)",
+   "region": "United States",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "",
+   "function": "Operations",
+   "posted": "2026-11-04",
+   "first_seen": "2026-11-04"
+  },
   {
    "id": "65693c687bc6",
    "title": "Implementation Manager (Mid West)",
@@ -386,6 +414,20 @@
    "first_seen": "2026-11-02"
   },
   {
+   "id": "d4e1ffb263ae",
+   "title": "Senior Account Manager",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-account-manager/DD.277",
+   "location": "Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Growth",
+   "function": "Sales & BD",
+   "posted": "2026-11-03",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "e4dd7ebc516d",
    "title": "Customer Success Manager",
    "company": "BigaBid",
@@ -411,20 +453,6 @@
    "department": "Sales",
    "function": "Sales & BD",
    "posted": "2026-11-03",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "748707dc0e3d",
-   "title": "Treasury Manager",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/treasury-manager/E0.479",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Finance",
-   "function": "Finance & Legal",
-   "posted": "2026-11-02",
    "first_seen": "2026-11-02"
   },
   {
@@ -536,20 +564,6 @@
    "workplace": "Remote",
    "department": "",
    "function": "Product",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "5adc4dce9ccd",
-   "title": "Forward Deployment Strategist",
-   "company": "Opmed AI",
-   "url": "https://www.opmed.ai/careers/data-science-tech-lead-copy-copy",
-   "location": "New York metropolitan area (NY, NJ, CT)",
-   "region": "United States",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "",
-   "function": "Operations",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02"
   },
@@ -900,20 +914,6 @@
    "workplace": "",
    "department": "",
    "function": "Operations",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "d4e1ffb263ae",
-   "title": "Senior Account Manager",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-account-manager/DD.277",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Growth",
-   "function": "Sales & BD",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02"
   },
@@ -1419,20 +1419,6 @@
    "department": "Product",
    "function": "Data & AI",
    "posted": "2026-10-22",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "72378562e1b0",
-   "title": "Senior Backend Software Engineer",
-   "company": "Sedric",
-   "url": "https://www.comeet.com/jobs/sedric/0A.00F/senior-backend-software-engineer/EC.077",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "RnD",
-   "function": "Engineering",
-   "posted": "2026-10-18",
    "first_seen": "2026-10-28"
   },
   {
