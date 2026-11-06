@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-05T11:00:55+00:00",
+ "updated_at": "2026-11-06T10:58:39+00:00",
  "baseline": "2026-11-02",
- "job_count": 89,
+ "job_count": 92,
  "companies": [
   {
    "name": "Able",
@@ -231,7 +231,7 @@
    "fund": "HVL, SCV I",
    "description": "AI-powered in-home virtual care agent enabling accurate and qualitative elderly care.",
    "logo": "",
-   "job_count": 10,
+   "job_count": 12,
    "status": "ok"
   },
   {
@@ -319,7 +319,7 @@
    "fund": "HVL",
    "description": "Mobile gaming platform turning popular games into skills-based, real money tournaments.",
    "logo": "",
-   "job_count": 17,
+   "job_count": 18,
    "status": "ok"
   },
   {
@@ -357,6 +357,146 @@
   }
  ],
  "jobs": [
+  {
+   "id": "13b444036db6",
+   "title": "UI/UX Designer Lead",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Art",
+   "function": "Design",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7ca0d9cfeec4",
+   "title": "Privacy & Compliance Counsel",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "On-site",
+   "department": "Legal",
+   "function": "Finance & Legal",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "7a89657160d8",
+   "title": "Customer Support Agent (Native-Level English)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "CX",
+   "function": "Customer Success",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "74b58421d29c",
+   "title": "Backend Engineer",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/backend-engineer/16.373",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "f6dfea1cde16",
+   "title": "Forward Deployed Engineer",
+   "company": "Opmed AI",
+   "url": "https://www.opmed.ai/careers/forward-deployed-engineer",
+   "location": "USA, East Coast",
+   "region": "United States",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "",
+   "function": "Engineering",
+   "posted": "2026-11-06",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "0218da78aa2d",
+   "title": "Strategic Account Executive",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/strategic-account-executive/37.76C",
+   "location": "Remote - US",
+   "region": "United States",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "Sales",
+   "function": "Sales & BD",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "f985fc254473",
+   "title": "Senior Software Engineer",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-software-engineer/49.764",
+   "location": "Tel Aviv, Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-05",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "b87e362986c0",
+   "title": "Product Lead",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/product-lead/CD.476",
+   "location": "Austin TX",
+   "region": "United States",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Product Management",
+   "function": "Product",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "65693c687bc6",
+   "title": "Implementation Manager (Mid West)",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/implementation-manager-mid-west/20.170",
+   "location": "Remote",
+   "region": "",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "Operations",
+   "function": "Customer Success",
+   "posted": "2026-11-05",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "4ebc948f7add",
+   "title": "AI Engineering Tech Lead – Hands-on",
+   "company": "Sedric",
+   "url": "https://www.comeet.com/jobs/sedric/0A.00F/ai-engineering-tech-lead--hands-on/6D.F63",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "RnD",
+   "function": "Engineering",
+   "posted": "2026-11-05",
+   "first_seen": "2026-10-28"
+  },
   {
    "id": "e685781982a6",
    "title": "Software Team Lead (Payments & Fraud)",
@@ -428,6 +568,34 @@
    "first_seen": "2026-11-02"
   },
   {
+   "id": "f22efa4d13a9",
+   "title": "Senior Product Designer",
+   "company": "Matia",
+   "url": "https://jobs.ashbyhq.com/matia/470bbfdf-d5e3-44cd-9b30-8b979855a300",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Product",
+   "function": "Design",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "f0421ec230e3",
+   "title": "Senior User Acquisition Manager",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-user-acquisition-manager/1C.274",
+   "location": "Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Performance",
+   "function": "Marketing",
+   "posted": "2026-11-05",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "d4e1ffb263ae",
    "title": "Senior Account Manager",
    "company": "BigaBid",
@@ -440,20 +608,6 @@
    "function": "Sales & BD",
    "posted": "2026-11-05",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "65693c687bc6",
-   "title": "Implementation Manager (Mid West)",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/implementation-manager-mid-west/20.170",
-   "location": "Remote",
-   "region": "",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "Operations",
-   "function": "Customer Success",
-   "posted": "2026-11-04",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "748707dc0e3d",
@@ -526,20 +680,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "f0421ec230e3",
-   "title": "Senior User Acquisition Manager",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/senior-user-acquisition-manager/1C.274",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Performance",
-   "function": "Marketing",
-   "posted": "2026-11-04",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "e4dd7ebc516d",
    "title": "Customer Success Manager",
    "company": "BigaBid",
@@ -582,20 +722,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "74b58421d29c",
-   "title": "Backend Engineer",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/backend-engineer/16.373",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "8e3d88b79a7c",
    "title": "Assistant Controller",
    "company": "Papaya",
@@ -606,20 +732,6 @@
    "workplace": "Hybrid",
    "department": "Finance",
    "function": "Finance & Legal",
-   "posted": "2026-11-02",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "0080f03a8914",
-   "title": "Forward Deployed Engineer",
-   "company": "Opmed AI",
-   "url": "https://www.opmed.ai/careers/forward-deployed-engineer",
-   "location": "USA, West Coast",
-   "region": "United States",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "",
-   "function": "Engineering",
    "posted": "2026-11-02",
    "first_seen": "2026-11-02"
   },
@@ -988,34 +1100,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "4ebc948f7add",
-   "title": "AI Engineering Tech Lead – Hands-on",
-   "company": "Sedric",
-   "url": "https://www.comeet.com/jobs/sedric/0A.00F/ai-engineering-tech-lead--hands-on/6D.F63",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "RnD",
-   "function": "Engineering",
-   "posted": "2026-11-01",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "13b444036db6",
-   "title": "UI/UX Designer Lead",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Art",
-   "function": "Design",
-   "posted": "2026-11-01",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "086167f2cd96",
    "title": "Account Executive - North America",
    "company": "BigaBid",
@@ -1240,20 +1324,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "7a89657160d8",
-   "title": "Customer Support Agent (Native-Level English)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "CX",
-   "function": "Customer Success",
-   "posted": "2026-10-28",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "9791fbaa8588",
    "title": "Office & Workplace Operations Manager",
    "company": "Matia",
@@ -1349,20 +1419,6 @@
    "department": "R&D",
    "function": "Engineering",
    "posted": "2026-10-26",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "f985fc254473",
-   "title": "Senior Software Engineer",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-software-engineer/49.764",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-10-25",
    "first_seen": "2026-10-28"
   },
   {
@@ -1490,20 +1546,6 @@
    "function": "Sales & BD",
    "posted": "2026-08-19",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "1ac5e87272b3",
-   "title": "Revenue Operations",
-   "company": "Matia",
-   "url": "https://jobs.ashbyhq.com/matia/1b579e8a-0eb6-4c15-90d3-851786caac65",
-   "location": "Remote (USA)",
-   "region": "United States",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "GTM",
-   "function": "Operations",
-   "posted": "2026-06-24",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "dfc6175bc5ff",
