@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-10T11:18:20+00:00",
+ "updated_at": "2026-11-11T11:04:21+00:00",
  "baseline": "2026-11-02",
- "job_count": 93,
+ "job_count": 92,
  "companies": [
   {
    "name": "Able",
@@ -242,7 +242,7 @@
    "fund": "HVL",
    "description": "Real-time data-driven programmatic user acquisition and DSP retargeting tools that enable LTV-optimized audience targeting.",
    "logo": "",
-   "job_count": 8,
+   "job_count": 7,
    "status": "ok"
   },
   {
@@ -358,6 +358,34 @@
  ],
  "jobs": [
   {
+   "id": "e2f2a09988af",
+   "title": "VP Product",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/vp-product/4C.F6D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Product",
+   "function": "Product",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "2d57286398de",
+   "title": "Senior Unity Engineer",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/A9.14B",
+   "location": "Poland",
+   "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "5d934696e590",
    "title": "Senior Backend Engineer",
    "company": "Papaya",
@@ -368,8 +396,92 @@
    "workplace": "Hybrid",
    "department": "R&D",
    "function": "Engineering",
-   "posted": "2026-11-10",
+   "posted": "2026-11-11",
    "first_seen": "2026-11-02"
+  },
+  {
+   "id": "34240aa57806",
+   "title": "Game Economy Team Lead (Solitaire)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-economy-team-lead--solitaire/DF.270",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Games",
+   "function": "Product",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "74b58421d29c",
+   "title": "Backend Engineer",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/backend-engineer/16.373",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "8e3d88b79a7c",
+   "title": "Assistant Controller",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/assistant-controller/95.27E",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Finance",
+   "function": "Finance & Legal",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "e4c861b3b3c1",
+   "title": "Project Coordinator",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/project-coordinator/A9.37E",
+   "location": "Austin TX",
+   "region": "United States",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Operations",
+   "function": "Operations",
+   "posted": "2026-11-10",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "469014a77be9",
+   "title": "Customer Success Manager",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/customer-success-manager/29.066",
+   "location": "Remote - US",
+   "region": "United States",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "Customer Success",
+   "function": "Customer Success",
+   "posted": "2026-11-10",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "7ca0d9cfeec4",
+   "title": "Privacy & Compliance Counsel",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "On-site",
+   "department": "Legal",
+   "function": "Finance & Legal",
+   "posted": "2026-11-10",
+   "first_seen": "2026-11-06"
   },
   {
    "id": "ac8ba92231ea",
@@ -411,20 +523,6 @@
    "department": "Growth",
    "function": "Customer Success",
    "posted": "2026-11-10",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "e2f2a09988af",
-   "title": "VP Product",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/vp-product/4C.F6D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Product",
-   "function": "Product",
-   "posted": "2026-11-09",
    "first_seen": "2026-11-02"
   },
   {
@@ -484,20 +582,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "7ca0d9cfeec4",
-   "title": "Privacy & Compliance Counsel",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "On-site",
-   "department": "Legal",
-   "function": "Finance & Legal",
-   "posted": "2026-11-09",
-   "first_seen": "2026-11-06"
-  },
-  {
    "id": "1e0c102bdb8a",
    "title": "Director of Performance",
    "company": "Papaya",
@@ -524,20 +608,6 @@
    "function": "Data & AI",
    "posted": "2026-11-09",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "1b0facb115e0",
-   "title": "Junior User Acquisition Manager",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/junior-user-acquisition-manager/06.A34",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "Performance",
-   "function": "Marketing",
-   "posted": "2026-11-09",
-   "first_seen": "2026-11-09"
   },
   {
    "id": "48b02a51757d",
@@ -582,20 +652,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "e4c861b3b3c1",
-   "title": "Project Coordinator",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/project-coordinator/A9.37E",
-   "location": "Austin TX",
-   "region": "United States",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Operations",
-   "function": "Operations",
-   "posted": "2026-11-08",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "65693c687bc6",
    "title": "Implementation Manager (Mid West)",
    "company": "Sensi AI",
@@ -620,34 +676,6 @@
    "workplace": "Hybrid",
    "department": "R&D",
    "function": "Engineering",
-   "posted": "2026-11-08",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "74b58421d29c",
-   "title": "Backend Engineer",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/backend-engineer/16.373",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-08",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "8e3d88b79a7c",
-   "title": "Assistant Controller",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/assistant-controller/95.27E",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Finance",
-   "function": "Finance & Legal",
    "posted": "2026-11-08",
    "first_seen": "2026-11-02"
   },
@@ -680,20 +708,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "2d57286398de",
-   "title": "Senior Unity Engineer",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/A9.14B",
-   "location": "Poland",
-   "region": "Europe",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-07",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "22e7b2a15ce6",
    "title": "Senior Backend Engineer (Optimus Team)",
    "company": "Papaya",
@@ -704,20 +718,6 @@
    "workplace": "Hybrid",
    "department": "R&D",
    "function": "Engineering",
-   "posted": "2026-11-06",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "34240aa57806",
-   "title": "Game Economy Team Lead (Solitaire)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-economy-team-lead--solitaire/DF.270",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Games",
-   "function": "Product",
    "posted": "2026-11-06",
    "first_seen": "2026-11-02"
   },
@@ -1489,20 +1489,6 @@
    "department": "Product",
    "function": "Data & AI",
    "posted": "2026-10-22",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "469014a77be9",
-   "title": "Customer Success Manager",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/customer-success-manager/29.066",
-   "location": "Remote - US",
-   "region": "United States",
-   "remote": true,
-   "workplace": "Remote",
-   "department": "Customer Success",
-   "function": "Customer Success",
-   "posted": "2026-10-15",
    "first_seen": "2026-10-28"
   },
   {
