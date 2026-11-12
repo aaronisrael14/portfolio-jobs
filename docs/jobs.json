@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-11T11:04:21+00:00",
+ "updated_at": "2026-11-12T11:21:52+00:00",
  "baseline": "2026-11-02",
- "job_count": 92,
+ "job_count": 91,
  "companies": [
   {
    "name": "Able",
@@ -341,7 +341,7 @@
    "fund": "HVL",
    "description": "AI-based risk and compliance platform for FinTech applications.",
    "logo": "",
-   "job_count": 2,
+   "job_count": 1,
    "status": "ok"
   },
   {
@@ -357,6 +357,90 @@
   }
  ],
  "jobs": [
+  {
+   "id": "e685781982a6",
+   "title": "Software Team Lead (Payments & Fraud)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
+   "location": "Poland",
+   "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-12",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "5d934696e590",
+   "title": "Senior Backend Engineer",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-backend-engineer/91.470",
+   "location": "Poland",
+   "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-12",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7ca0d9cfeec4",
+   "title": "Privacy & Compliance Counsel",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "On-site",
+   "department": "Legal",
+   "function": "Finance & Legal",
+   "posted": "2026-11-12",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "1e0c102bdb8a",
+   "title": "Director of Performance",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/director-of-performance/91.371",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Marketing",
+   "function": "Marketing",
+   "posted": "2026-11-12",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7a89657160d8",
+   "title": "Customer Support Agent (Native-Level English)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "CX",
+   "function": "Customer Success",
+   "posted": "2026-11-12",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "bea9bee3b803",
+   "title": "Senior Product Designer",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
+   "location": "Tel Aviv, Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Design",
+   "posted": "2026-11-11",
+   "first_seen": "2026-11-08"
+  },
   {
    "id": "e2f2a09988af",
    "title": "VP Product",
@@ -376,20 +460,6 @@
    "title": "Senior Unity Engineer",
    "company": "Papaya",
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/A9.14B",
-   "location": "Poland",
-   "region": "Europe",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-11",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "5d934696e590",
-   "title": "Senior Backend Engineer",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-backend-engineer/91.470",
    "location": "Poland",
    "region": "Europe",
    "remote": false,
@@ -468,20 +538,6 @@
    "function": "Customer Success",
    "posted": "2026-11-10",
    "first_seen": "2026-10-28"
-  },
-  {
-   "id": "7ca0d9cfeec4",
-   "title": "Privacy & Compliance Counsel",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "On-site",
-   "department": "Legal",
-   "function": "Finance & Legal",
-   "posted": "2026-11-10",
-   "first_seen": "2026-11-06"
   },
   {
    "id": "ac8ba92231ea",
@@ -582,20 +638,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "1e0c102bdb8a",
-   "title": "Director of Performance",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/director-of-performance/91.371",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Marketing",
-   "function": "Marketing",
-   "posted": "2026-11-09",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "f38c81ba6d75",
    "title": "Business Analyst",
    "company": "Papaya",
@@ -624,20 +666,6 @@
    "first_seen": "2026-11-09"
   },
   {
-   "id": "bea9bee3b803",
-   "title": "Senior Product Designer",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Design",
-   "posted": "2026-11-08",
-   "first_seen": "2026-11-08"
-  },
-  {
    "id": "9ddaaf8d0591",
    "title": "Senior Product Designer",
    "company": "Sensi AI",
@@ -664,20 +692,6 @@
    "function": "Customer Success",
    "posted": "2026-11-08",
    "first_seen": "2026-10-28"
-  },
-  {
-   "id": "e685781982a6",
-   "title": "Software Team Lead (Payments & Fraud)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
-   "location": "Poland",
-   "region": "Europe",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-08",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "f0421ec230e3",
@@ -718,20 +732,6 @@
    "workplace": "Hybrid",
    "department": "R&D",
    "function": "Engineering",
-   "posted": "2026-11-06",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "7a89657160d8",
-   "title": "Customer Support Agent (Native-Level English)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "CX",
-   "function": "Customer Success",
    "posted": "2026-11-06",
    "first_seen": "2026-11-02"
   },
@@ -1475,20 +1475,6 @@
    "department": "Operations",
    "function": "Marketing",
    "posted": "2026-10-23",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "10f46c984e06",
-   "title": "Data Lead",
-   "company": "Sedric",
-   "url": "https://www.comeet.com/jobs/sedric/0A.00F/data-lead/1A.37A",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Product",
-   "function": "Data & AI",
-   "posted": "2026-10-22",
    "first_seen": "2026-10-28"
   },
   {
