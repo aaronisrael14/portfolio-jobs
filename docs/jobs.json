@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T11:21:52+00:00",
+ "updated_at": "2026-11-13T11:05:43+00:00",
  "baseline": "2026-11-02",
  "job_count": 91,
  "companies": [
@@ -358,6 +358,34 @@
  ],
  "jobs": [
   {
+   "id": "e2f2a09988af",
+   "title": "VP Product",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/vp-product/4C.F6D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Product",
+   "function": "Product",
+   "posted": "2026-11-13",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "f985fc254473",
+   "title": "Senior Software Engineer",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-software-engineer/49.764",
+   "location": "Tel Aviv, Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-12",
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "e685781982a6",
    "title": "Software Team Lead (Payments & Fraud)",
    "company": "Papaya",
@@ -440,20 +468,6 @@
    "function": "Design",
    "posted": "2026-11-11",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "e2f2a09988af",
-   "title": "VP Product",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/vp-product/4C.F6D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Product",
-   "function": "Product",
-   "posted": "2026-11-11",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "2d57286398de",
@@ -762,20 +776,6 @@
    "function": "Sales & BD",
    "posted": "2026-11-05",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "f985fc254473",
-   "title": "Senior Software Engineer",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-software-engineer/49.764",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-05",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "b87e362986c0",
