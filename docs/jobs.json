@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T10:32:14+00:00",
+ "updated_at": "2026-11-15T11:00:29+00:00",
  "baseline": "2026-11-02",
  "job_count": 91,
  "companies": [
@@ -368,8 +368,22 @@
    "workplace": "Hybrid",
    "department": "Product",
    "function": "Product",
-   "posted": "2026-11-14",
+   "posted": "2026-11-15",
    "first_seen": "2026-11-02"
+  },
+  {
+   "id": "7ca0d9cfeec4",
+   "title": "Privacy & Compliance Counsel",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "On-site",
+   "department": "Legal",
+   "function": "Finance & Legal",
+   "posted": "2026-11-15",
+   "first_seen": "2026-11-06"
   },
   {
    "id": "748707dc0e3d",
@@ -440,20 +454,6 @@
    "function": "Engineering",
    "posted": "2026-11-12",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "7ca0d9cfeec4",
-   "title": "Privacy & Compliance Counsel",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "On-site",
-   "department": "Legal",
-   "function": "Finance & Legal",
-   "posted": "2026-11-12",
-   "first_seen": "2026-11-06"
   },
   {
    "id": "1e0c102bdb8a",
