@@ -152,6 +152,31 @@ def src_hibob(c):
     } for j in data.get("jobAdDetails", [])]
 
 
+def src_haat(c):
+    """HAAT's careers site (careers.haat.delivery) is a React app fed by this public JSON API.
+    The city/district is in workPlaceType ("Haifa/Tel Aviv", "North\\Center District", "On-site")."""
+    data = get_json("https://hub-backend.haat.delivery/api/v1/careers/public/jobs")
+    out = []
+    for j in data:
+        if not j.get("isActive", 1):
+            continue
+        place = ((j.get("workPlaceType") or {}).get("workPlaceType") or "").replace("\\", "/")
+        parts = [p.strip() for p in place.split("/") if p.strip()]
+        modes = " ".join(parts + [(j.get("jobType") or {}).get("jobType") or ""]).lower()
+        loc = j.get("location") or " / ".join(p for p in parts if p.lower() not in ("on-site", "onsite", "hybrid", "remote"))
+        if c.get("country") and not region_of(loc):  # "Center District" -> "Center District, Israel"
+            loc = f"{loc}, {c['country']}" if loc else c["country"]
+        out.append({
+            "title": j["jobName"],
+            "location": loc,
+            "department": (j.get("department") or {}).get("departmentName", ""),
+            "url": f"https://careers.haat.delivery/job?jobID={j['jobID']}",
+            "workplace": "Remote" if "remote" in modes else "Hybrid" if "hybrid" in modes
+                         else "On-site" if re.search(r"on[- ]?site", modes) else "",
+        })
+    return out
+
+
 HEADINGS = ["h1", "h2", "h3", "h4", "h5", "h6"]
 JUNK_TITLES = re.compile(r"^(read more|apply( now)?|view details|learn more|see more|details)$", re.I)
 
@@ -242,6 +267,7 @@ def src_html(c):
 SOURCES = {
     "greenhouse": src_greenhouse, "lever": src_lever, "ashby": src_ashby,
     "workable": src_workable, "comeet": src_comeet, "hibob": src_hibob, "html": src_html,
+    "haat": src_haat,
 }
 
 
@@ -256,6 +282,7 @@ def careers_url(company):
         "comeet": lambda: f"https://www.comeet.com/jobs/{c['slug']}/{c['uid']}",
         "hibob": lambda: f"https://{c['slug']}.careers.hibob.com/jobs",
         "html": lambda: c["url"],
+        "haat": lambda: "https://careers.haat.delivery/careers",
     }.get(t, lambda: c.get("careers_url") or company["website"])()
 
 
@@ -280,7 +307,7 @@ REGIONS = [
     ("Israel", r"tel[- ]?aviv|israel|giv'?atayim|herzliya|haifa|jerusalem|ramat gan|petah|ra'?anana|yafo|be'?er sheva|\bil\b"),
     ("United States", r"\bus\b|\busa\b|united states|new york|\bnyc\b|austin|\btx\b|san francisco|\bsf\b|boston|chicago|mid ?west|\best\b|\bpst\b|seattle|los angeles|miami|westchester|north america"),
     ("Europe", r"london|\buk\b|united kingdom|poland|berlin|paris|europe|\bemea\b|amsterdam|madrid|lisbon|warsaw|krakow"),
-    ("Asia-Pacific", r"beijing|seoul|china|korea|singapore|tokyo|japan|india|australia|\bapac\b"),
+    ("Asia-Pacific", r"beijing|seoul|china|korea|singapore|tokyo|japan|india|surat|ahmedabad|gurgaon|gurugram|bengaluru|bangalore|australia|\bapac\b"),
 ]
 
 LOCATION_CLEANUP = [
