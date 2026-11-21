@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T11:46:45+00:00",
+ "updated_at": "2026-11-21T11:11:50+00:00",
  "baseline": "2026-11-02",
  "job_count": 121,
  "companies": [
@@ -358,6 +358,62 @@
  ],
  "jobs": [
   {
+   "id": "ba2ab3161b80",
+   "title": "Internal Communications and Employer Branding Manager (Maternity Leave Cover)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/internal-communications-and-employer-branding-manager-maternity-leave-cover/65.57E",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Marketing",
+   "function": "Marketing",
+   "posted": "2026-11-21",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "34240aa57806",
+   "title": "Game Economy Team Lead (Solitaire)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-economy-team-lead--solitaire/DF.270",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Games",
+   "function": "Product",
+   "posted": "2026-11-21",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "ac8ba92231ea",
+   "title": "Data Scientist",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-21",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "f38c81ba6d75",
+   "title": "Business Analyst",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/business-analyst/3A.473",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-21",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "748707dc0e3d",
    "title": "Treasury Manager",
    "company": "Papaya",
@@ -378,6 +434,20 @@
    "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
    "location": "Poland",
    "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-20",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "23cc2db140d4",
+   "title": "Senior Unity Engineer",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/C7.37F",
+   "location": "Tel Aviv",
+   "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
    "department": "R&D",
@@ -428,20 +498,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ba2ab3161b80",
-   "title": "Internal Communications and Employer Branding Manager (Maternity Leave Cover)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/internal-communications-and-employer-branding-manager-maternity-leave-cover/65.57E",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Marketing",
-   "function": "Marketing",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-17"
-  },
-  {
    "id": "7a89657160d8",
    "title": "Customer Support Agent (Native-Level English)",
    "company": "Papaya",
@@ -452,20 +508,6 @@
    "workplace": "Hybrid",
    "department": "CX",
    "function": "Customer Success",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "f38c81ba6d75",
-   "title": "Business Analyst",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/business-analyst/3A.473",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
    "posted": "2026-11-20",
    "first_seen": "2026-11-02"
   },
@@ -496,6 +538,20 @@
    "function": "Operations",
    "posted": "2026-11-20",
    "first_seen": "2026-11-20"
+  },
+  {
+   "id": "3f6b1dc417b0",
+   "title": "Machine Learning Engineer",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
+   "location": "Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Engineering",
+   "function": "Data & AI",
+   "posted": "2026-11-20",
+   "first_seen": "2026-11-19"
   },
   {
    "id": "65693c687bc6",
@@ -568,20 +624,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "23cc2db140d4",
-   "title": "Senior Unity Engineer",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/senior-unity-engineer/C7.37F",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-19",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "5d934696e590",
    "title": "Senior Backend Engineer",
    "company": "Papaya",
@@ -596,20 +638,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "34240aa57806",
-   "title": "Game Economy Team Lead (Solitaire)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/game-economy-team-lead--solitaire/DF.270",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Games",
-   "function": "Product",
-   "posted": "2026-11-19",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "1e0c102bdb8a",
    "title": "Director of Performance",
    "company": "Papaya",
@@ -620,20 +648,6 @@
    "workplace": "Hybrid",
    "department": "Marketing",
    "function": "Marketing",
-   "posted": "2026-11-19",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "ac8ba92231ea",
-   "title": "Data Scientist",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
    "posted": "2026-11-19",
    "first_seen": "2026-11-02"
   },
@@ -678,20 +692,6 @@
    "function": "Sales & BD",
    "posted": "2026-11-19",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "3f6b1dc417b0",
-   "title": "Machine Learning Engineer",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Engineering",
-   "function": "Data & AI",
-   "posted": "2026-11-19",
-   "first_seen": "2026-11-19"
   },
   {
    "id": "90ae0bd840c7",
