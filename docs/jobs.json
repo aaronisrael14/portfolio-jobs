@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T11:11:50+00:00",
+ "updated_at": "2026-11-22T11:31:14+00:00",
  "baseline": "2026-11-02",
  "job_count": 121,
  "companies": [
@@ -368,7 +368,7 @@
    "workplace": "Hybrid",
    "department": "Marketing",
    "function": "Marketing",
-   "posted": "2026-11-21",
+   "posted": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -382,7 +382,7 @@
    "workplace": "Hybrid",
    "department": "Games",
    "function": "Product",
-   "posted": "2026-11-21",
+   "posted": "2026-11-22",
    "first_seen": "2026-11-02"
   },
   {
@@ -396,7 +396,7 @@
    "workplace": "Hybrid",
    "department": "Analytics",
    "function": "Data & AI",
-   "posted": "2026-11-21",
+   "posted": "2026-11-22",
    "first_seen": "2026-11-02"
   },
   {
@@ -410,6 +410,34 @@
    "workplace": "Hybrid",
    "department": "Analytics",
    "function": "Data & AI",
+   "posted": "2026-11-22",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "031f82a477a7",
+   "title": "Business Operations Associate",
+   "company": "Daisy",
+   "url": "https://www.joindaisy.com/careers/1b3daed4-9865-4659-8242-8ebc9d318439",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "",
+   "department": "",
+   "function": "Operations",
+   "posted": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "e685781982a6",
+   "title": "Software Team Lead (Payments & Fraud)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
+   "location": "Poland",
+   "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
    "posted": "2026-11-21",
    "first_seen": "2026-11-02"
   },
@@ -424,20 +452,6 @@
    "workplace": "Hybrid",
    "department": "Finance",
    "function": "Finance & Legal",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "e685781982a6",
-   "title": "Software Team Lead (Payments & Fraud)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
-   "location": "Poland",
-   "region": "Europe",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
    "posted": "2026-11-20",
    "first_seen": "2026-11-02"
   },
@@ -832,20 +846,6 @@
    "function": "Finance & Legal",
    "posted": "2026-11-17",
    "first_seen": "2026-11-02"
-  },
-  {
-   "id": "a5108110bd8e",
-   "title": "Business Operations Lead",
-   "company": "Daisy",
-   "url": "https://www.joindaisy.com/careers/1b3daed4-9865-4659-8242-8ebc9d318439",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "",
-   "department": "",
-   "function": "Operations",
-   "posted": "2026-11-17",
-   "first_seen": "2026-11-17"
   },
   {
    "id": "53c2ae2ff352",
