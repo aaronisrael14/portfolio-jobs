@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T11:31:14+00:00",
+ "updated_at": "2026-11-23T11:41:40+00:00",
  "baseline": "2026-11-02",
  "job_count": 121,
  "companies": [
@@ -358,6 +358,20 @@
  ],
  "jobs": [
   {
+   "id": "7ca0d9cfeec4",
+   "title": "Privacy & Compliance Counsel",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "On-site",
+   "department": "Legal",
+   "function": "Finance & Legal",
+   "posted": "2026-11-23",
+   "first_seen": "2026-11-06"
+  },
+  {
    "id": "ba2ab3161b80",
    "title": "Internal Communications and Employer Branding Manager (Maternity Leave Cover)",
    "company": "Papaya",
@@ -368,7 +382,7 @@
    "workplace": "Hybrid",
    "department": "Marketing",
    "function": "Marketing",
-   "posted": "2026-11-22",
+   "posted": "2026-11-23",
    "first_seen": "2026-11-17"
   },
   {
@@ -382,7 +396,7 @@
    "workplace": "Hybrid",
    "department": "Games",
    "function": "Product",
-   "posted": "2026-11-22",
+   "posted": "2026-11-23",
    "first_seen": "2026-11-02"
   },
   {
@@ -396,7 +410,7 @@
    "workplace": "Hybrid",
    "department": "Analytics",
    "function": "Data & AI",
-   "posted": "2026-11-22",
+   "posted": "2026-11-23",
    "first_seen": "2026-11-02"
   },
   {
@@ -410,8 +424,22 @@
    "workplace": "Hybrid",
    "department": "Analytics",
    "function": "Data & AI",
-   "posted": "2026-11-22",
+   "posted": "2026-11-23",
    "first_seen": "2026-11-02"
+  },
+  {
+   "id": "1ac5e87272b3",
+   "title": "Revenue Operations",
+   "company": "Matia",
+   "url": "https://jobs.ashbyhq.com/matia/1b579e8a-0eb6-4c15-90d3-851786caac65",
+   "location": "Remote (USA)",
+   "region": "United States",
+   "remote": true,
+   "workplace": "Remote",
+   "department": "GTM",
+   "function": "Operations",
+   "posted": "2026-11-23",
+   "first_seen": "2026-11-23"
   },
   {
    "id": "031f82a477a7",
@@ -426,6 +454,20 @@
    "function": "Operations",
    "posted": "2026-11-22",
    "first_seen": "2026-11-22"
+  },
+  {
+   "id": "3f6b1dc417b0",
+   "title": "Machine Learning Engineer",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
+   "location": "Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Engineering",
+   "function": "Data & AI",
+   "posted": "2026-11-22",
+   "first_seen": "2026-11-19"
   },
   {
    "id": "e685781982a6",
@@ -498,20 +540,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "7ca0d9cfeec4",
-   "title": "Privacy & Compliance Counsel",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/privacy--compliance-counsel/5D.47D",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "On-site",
-   "department": "Legal",
-   "function": "Finance & Legal",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-06"
-  },
-  {
    "id": "7a89657160d8",
    "title": "Customer Support Agent (Native-Level English)",
    "company": "Papaya",
@@ -552,20 +580,6 @@
    "function": "Operations",
    "posted": "2026-11-20",
    "first_seen": "2026-11-20"
-  },
-  {
-   "id": "3f6b1dc417b0",
-   "title": "Machine Learning Engineer",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Engineering",
-   "function": "Data & AI",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-19"
   },
   {
    "id": "65693c687bc6",
@@ -1979,20 +1993,6 @@
    "department": "R&D - Software",
    "function": "Engineering",
    "posted": "2026-06-10",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "989cc6b25a5c",
-   "title": "Director of Engineering",
-   "company": "Matia",
-   "url": "https://jobs.ashbyhq.com/matia/ab469fce-2f38-4d74-8ffd-1fcfbe786015",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Engineering",
-   "function": "Engineering",
-   "posted": "2026-05-27",
    "first_seen": "2026-10-28"
   },
   {
