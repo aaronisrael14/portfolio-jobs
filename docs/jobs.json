@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T11:41:40+00:00",
+ "updated_at": "2026-11-23T12:55:20+00:00",
  "baseline": "2026-11-02",
  "job_count": 121,
  "companies": [
@@ -442,6 +442,20 @@
    "first_seen": "2026-11-23"
   },
   {
+   "id": "3f6b1dc417b0",
+   "title": "Machine Learning Engineer",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
+   "location": "Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Engineering",
+   "function": "Data & AI",
+   "posted": "2026-11-23",
+   "first_seen": "2026-11-19"
+  },
+  {
    "id": "031f82a477a7",
    "title": "Business Operations Associate",
    "company": "Daisy",
@@ -454,20 +468,6 @@
    "function": "Operations",
    "posted": "2026-11-22",
    "first_seen": "2026-11-22"
-  },
-  {
-   "id": "3f6b1dc417b0",
-   "title": "Machine Learning Engineer",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Engineering",
-   "function": "Data & AI",
-   "posted": "2026-11-22",
-   "first_seen": "2026-11-19"
   },
   {
    "id": "e685781982a6",
