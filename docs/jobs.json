@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-25T13:01:55+00:00",
+ "updated_at": "2026-11-26T12:42:34+00:00",
  "baseline": "2026-11-02",
- "job_count": 119,
+ "job_count": 120,
  "companies": [
   {
    "name": "Able",
@@ -133,7 +133,8 @@
    "description": "End-to-end food delivery platform that democratizes delivery in infrastructure-less areas.",
    "logo": "",
    "job_count": 22,
-   "status": "ok"
+   "status": "error",
+   "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://hub-backend.haat.delivery/api/v1/careers/public/jobs"
   },
   {
    "name": "Materialspace",
@@ -319,7 +320,7 @@
    "fund": "HVL",
    "description": "Mobile gaming platform turning popular games into skills-based, real money tournaments.",
    "logo": "",
-   "job_count": 16,
+   "job_count": 17,
    "status": "ok"
   },
   {
@@ -357,6 +358,76 @@
   }
  ],
  "jobs": [
+  {
+   "id": "a69333499be5",
+   "title": "Senior Data Scientist",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-data-scientist/26.47D",
+   "location": "Tel Aviv, Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Data & AI",
+   "posted": "2026-11-26",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "0731e4639a0e",
+   "title": "UI/UX Lead",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-lead/CD.578",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Art",
+   "function": "Design",
+   "posted": "2026-11-26",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "ac8ba92231ea",
+   "title": "Data Scientist",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-26",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "e4dd7ebc516d",
+   "title": "Customer Success Manager",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/customer-success-manager/2B.148",
+   "location": "Beijing",
+   "region": "Asia-Pacific",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Growth",
+   "function": "Customer Success",
+   "posted": "2026-11-26",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "bea9bee3b803",
+   "title": "Senior Product Designer",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
+   "location": "Tel Aviv, Israel",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Design",
+   "posted": "2026-11-25",
+   "first_seen": "2026-11-08"
+  },
   {
    "id": "65693c687bc6",
    "title": "Implementation Manager (Mid West)",
@@ -428,20 +499,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "ac8ba92231ea",
-   "title": "Data Scientist",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
-   "posted": "2026-11-25",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "f38c81ba6d75",
    "title": "Business Analyst",
    "company": "Papaya",
@@ -467,7 +524,9 @@
    "department": "Commercial",
    "function": "Sales & BD",
    "posted": "2026-11-25",
-   "first_seen": "2026-11-25"
+   "first_seen": "2026-11-25",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "220d01b03b02",
@@ -498,18 +557,18 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "a69333499be5",
-   "title": "Senior Data Scientist",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-data-scientist/26.47D",
-   "location": "Tel Aviv, Israel",
+   "id": "3f6b1dc417b0",
+   "title": "Machine Learning Engineer",
+   "company": "BigaBid",
+   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
+   "location": "Israel",
    "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
-   "department": "R&D",
+   "department": "Engineering",
    "function": "Data & AI",
-   "posted": "2026-11-24",
-   "first_seen": "2026-10-28"
+   "posted": "2026-11-25",
+   "first_seen": "2026-11-19"
   },
   {
    "id": "ff86ab0af8dd",
@@ -596,20 +655,6 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "3f6b1dc417b0",
-   "title": "Machine Learning Engineer",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/machine-learning-engineer/52.E58",
-   "location": "Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Engineering",
-   "function": "Data & AI",
-   "posted": "2026-11-24",
-   "first_seen": "2026-11-19"
-  },
-  {
    "id": "0218da78aa2d",
    "title": "Strategic Account Executive",
    "company": "Sensi AI",
@@ -622,20 +667,6 @@
    "function": "Sales & BD",
    "posted": "2026-11-23",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "bea9bee3b803",
-   "title": "Senior Product Designer",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Design",
-   "posted": "2026-11-23",
-   "first_seen": "2026-11-08"
   },
   {
    "id": "2dd92e5b20fc",
@@ -946,20 +977,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "e4dd7ebc516d",
-   "title": "Customer Success Manager",
-   "company": "BigaBid",
-   "url": "https://www.comeet.com/jobs/bigabid/A4.003/customer-success-manager/2B.148",
-   "location": "Beijing",
-   "region": "Asia-Pacific",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Growth",
-   "function": "Customer Success",
-   "posted": "2026-11-19",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "086167f2cd96",
    "title": "Account Executive - North America",
    "company": "BigaBid",
@@ -1097,7 +1114,9 @@
    "department": "People and Culture (HR)",
    "function": "People",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "b16fc6e15479",
@@ -1111,7 +1130,9 @@
    "department": "Research and Development",
    "function": "Finance & Legal",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "64cde0bef156",
@@ -1125,7 +1146,9 @@
    "department": "Marketing",
    "function": "Marketing",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "4f1664502504",
@@ -1139,7 +1162,9 @@
    "department": "Product",
    "function": "Product",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "32a7b363714b",
@@ -1153,7 +1178,9 @@
    "department": "Research and Development",
    "function": "Engineering",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "caba86189c98",
@@ -1167,7 +1194,9 @@
    "department": "Strategy and Expansion",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "24ae35dc695e",
@@ -1181,7 +1210,9 @@
    "department": "Commercial",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "d548441aedbb",
@@ -1195,7 +1226,9 @@
    "department": "Commercial",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "98c7e0a18a33",
@@ -1209,7 +1242,9 @@
    "department": "Commercial",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "cccc16354fef",
@@ -1223,7 +1258,9 @@
    "department": "Strategy and Expansion",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "b5b1183b9f73",
@@ -1237,7 +1274,9 @@
    "department": "Operations (OPS)",
    "function": "Operations",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "8777db1d4a57",
@@ -1251,7 +1290,9 @@
    "department": "Product",
    "function": "Product",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "c94cd155965c",
@@ -1265,7 +1306,9 @@
    "department": "Strategy and Expansion",
    "function": "Operations",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "473f58bddab3",
@@ -1279,7 +1322,9 @@
    "department": "Commercial",
    "function": "Other",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "8a0d4b639edd",
@@ -1293,7 +1338,9 @@
    "department": "Marketing",
    "function": "Design",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "a4e1b709800d",
@@ -1307,7 +1354,9 @@
    "department": "Commercial",
    "function": "Sales & BD",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "f5dcedaeb633",
@@ -1321,7 +1370,9 @@
    "department": "Operations (OPS)",
    "function": "Operations",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "6203f25b98de",
@@ -1335,7 +1386,9 @@
    "department": "Customer Service",
    "function": "Other",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "0e417d1e1ffc",
@@ -1349,7 +1402,9 @@
    "department": "Commercial",
    "function": "Operations",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "da98b2e6d1d8",
@@ -1363,7 +1418,9 @@
    "department": "Finance",
    "function": "Finance & Legal",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "d3316c4fe9b6",
@@ -1377,7 +1434,9 @@
    "department": "People and Culture (HR)",
    "function": "Operations",
    "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "stale": true,
+   "stale_since": "2026-11-26"
   },
   {
    "id": "e4c861b3b3c1",
