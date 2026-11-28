@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-27T12:30:59+00:00",
+ "updated_at": "2026-11-28T11:53:33+00:00",
  "baseline": "2026-11-02",
- "job_count": 120,
+ "job_count": 116,
  "companies": [
   {
    "name": "Able",
@@ -198,7 +198,7 @@
    "fund": "SCV I",
    "description": "Usage-based billing and modern AR platform helping SaaS businesses approach complex pricing and subscription models.",
    "logo": "",
-   "job_count": 4,
+   "job_count": 0,
    "status": "ok"
   },
   {
@@ -358,18 +358,32 @@
  ],
  "jobs": [
   {
-   "id": "0731e4639a0e",
-   "title": "UI/UX Lead",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-lead/CD.578",
-   "location": "Tel Aviv",
-   "region": "Israel",
+   "id": "e4c861b3b3c1",
+   "title": "Project Coordinator",
+   "company": "Sensi AI",
+   "url": "https://www.comeet.com/jobs/sensi/E7.00F/project-coordinator/A9.37E",
+   "location": "Austin TX",
+   "region": "United States",
    "remote": false,
    "workplace": "Hybrid",
-   "department": "Art",
-   "function": "Design",
-   "posted": "2026-11-27",
-   "first_seen": "2026-11-26"
+   "department": "Operations",
+   "function": "Operations",
+   "posted": "2026-11-28",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "e685781982a6",
+   "title": "Software Team Lead (Payments & Fraud)",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
+   "location": "Poland",
+   "region": "Europe",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "R&D",
+   "function": "Engineering",
+   "posted": "2026-11-28",
+   "first_seen": "2026-11-02"
   },
   {
    "id": "22e7b2a15ce6",
@@ -382,8 +396,50 @@
    "workplace": "Hybrid",
    "department": "R&D",
    "function": "Engineering",
-   "posted": "2026-11-27",
+   "posted": "2026-11-28",
    "first_seen": "2026-11-02"
+  },
+  {
+   "id": "ac8ba92231ea",
+   "title": "Data Scientist",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-28",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "f38c81ba6d75",
+   "title": "Business Analyst",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/business-analyst/3A.473",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Analytics",
+   "function": "Data & AI",
+   "posted": "2026-11-28",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "0731e4639a0e",
+   "title": "UI/UX Lead",
+   "company": "Papaya",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-lead/CD.578",
+   "location": "Tel Aviv",
+   "region": "Israel",
+   "remote": false,
+   "workplace": "Hybrid",
+   "department": "Art",
+   "function": "Design",
+   "posted": "2026-11-27",
+   "first_seen": "2026-11-26"
   },
   {
    "id": "34240aa57806",
@@ -400,16 +456,16 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "ac8ba92231ea",
-   "title": "Data Scientist",
+   "id": "7a89657160d8",
+   "title": "Customer Support Agent (Native-Level English)",
    "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/data-scientist/26.373",
+   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
    "location": "Tel Aviv",
    "region": "Israel",
    "remote": false,
    "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
+   "department": "CX",
+   "function": "Customer Success",
    "posted": "2026-11-27",
    "first_seen": "2026-11-02"
   },
@@ -522,20 +578,6 @@
    "workplace": "Hybrid",
    "department": "Finance",
    "function": "Finance & Legal",
-   "posted": "2026-11-25",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "f38c81ba6d75",
-   "title": "Business Analyst",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/business-analyst/3A.473",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Analytics",
-   "function": "Data & AI",
    "posted": "2026-11-25",
    "first_seen": "2026-11-02"
   },
@@ -834,34 +876,6 @@
    "first_seen": "2026-11-22"
   },
   {
-   "id": "e685781982a6",
-   "title": "Software Team Lead (Payments & Fraud)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/software-team-lead-payments--fraud/F4.477",
-   "location": "Poland",
-   "region": "Europe",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "R&D",
-   "function": "Engineering",
-   "posted": "2026-11-21",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "7a89657160d8",
-   "title": "Customer Support Agent (Native-Level English)",
-   "company": "Papaya",
-   "url": "https://www.comeet.com/jobs/papayagaming/46.00B/customer-support-agent-native-level-english/D4.474",
-   "location": "Tel Aviv",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "CX",
-   "function": "Customer Success",
-   "posted": "2026-11-20",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "aee3357b2938",
    "title": "Account Executive (US or Israel, Remote)",
    "company": "Materialspace",
@@ -1042,62 +1056,6 @@
    "function": "Engineering",
    "posted": "2026-11-18",
    "first_seen": "2026-10-28"
-  },
-  {
-   "id": "53c2ae2ff352",
-   "title": "Senior Fullstack Developer",
-   "company": "Vayu",
-   "url": "https://withvayu.com/job/senior-fullstack-developer/",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "",
-   "department": "",
-   "function": "Engineering",
-   "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "17ea2c1426ea",
-   "title": "Sales Development Representative",
-   "company": "Vayu",
-   "url": "https://withvayu.com/job/sales-development-representative/",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "",
-   "department": "",
-   "function": "Sales & BD",
-   "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "dbd3c0f3abcf",
-   "title": "R&D Team Lead",
-   "company": "Vayu",
-   "url": "https://withvayu.com/job/rd-team-lead/",
-   "location": "Tel Aviv, Israel",
-   "region": "Israel",
-   "remote": false,
-   "workplace": "",
-   "department": "",
-   "function": "Engineering",
-   "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "id": "bb8c284c1923",
-   "title": "Customer Success & Support Specialist",
-   "company": "Vayu",
-   "url": "https://withvayu.com/job/support-specialist/",
-   "location": "Remote - EST",
-   "region": "United States",
-   "remote": true,
-   "workplace": "",
-   "department": "",
-   "function": "Customer Success",
-   "posted": "2026-11-16",
-   "first_seen": "2026-11-16"
   },
   {
    "id": "ab546c43390c",
@@ -1406,20 +1364,6 @@
    "function": "Operations",
    "posted": "2026-11-16",
    "first_seen": "2026-11-16"
-  },
-  {
-   "id": "e4c861b3b3c1",
-   "title": "Project Coordinator",
-   "company": "Sensi AI",
-   "url": "https://www.comeet.com/jobs/sensi/E7.00F/project-coordinator/A9.37E",
-   "location": "Austin TX",
-   "region": "United States",
-   "remote": false,
-   "workplace": "Hybrid",
-   "department": "Operations",
-   "function": "Operations",
-   "posted": "2026-11-10",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "5640f9399d7a",
